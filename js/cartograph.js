@@ -977,18 +977,7 @@ function UI_PiechartGallery(options) {
                 chartBox.attr("chart", chart);
                 chartBox.appendTo(widgetBox);
                 var chartOptions = {
-                    /*header: {
-                     title: {
-                     text: config["seasons"][chart],
-                     fontSize: 12
-                     },
-                     location: "top-left"
-                     },*/
-                    /*footer: {
-                        text: config["seasons"][chart],
-                        fontSize: 12,
-                        location: "left"
-                    },*/
+                   
                     size: {
                         canvasHeight: 120,
                         canvasWidth: 120
