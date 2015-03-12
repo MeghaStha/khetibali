@@ -996,7 +996,7 @@ function UI_PiechartGallery(options) {
                         }
                     },
                     data: {
-                        //content: options.charts[chart]
+                      
                         content: options.charts[chart]
                     }
                 };

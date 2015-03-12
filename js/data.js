@@ -312,7 +312,7 @@ function Data() {
 //                   console.log(feature); 
                         try {
                             var cropList = feature.properties.crop.split(";");
-                            var cropData = {
+                           /* var cropData = {
                                 "0": [
                                 ],
                                 "3": [
@@ -321,11 +321,64 @@ function Data() {
                                 ],
                                 "9": [
                                 ]
+                            };*/
+                                var cropData = {
+                                "warm-crops": [
+                                ],
+                                "cool-crops": [
+                                ]
                             };
-
+                            
+                                //console.log( cropList[2]);
+                                //console.log(config["warm-crops"][0]);   
                             var cropMonthRange;
                             //console.log(cropList);
-                            for (var c in cropList) {
+                            for (var c in cropList){
+                                for (var w in config["warm-crops"]){
+                                    $.map(cropData, function(data){
+
+                                        //console.log(config["warm-crops"][0]);   
+                                        if ((config["warm-crops"][w]==cropList[c])){
+                                         console.log(cropList[c]); 
+                                            console.log(config["warm-crops"][w]);
+                                            console.log(w); 
+                                        console.log(c);
+                                            cropData["warm-crops"].push({
+                                            "label": cropList[c],
+                                            "value": feature.properties["crop"+c+":percentage"],
+                                            "time": feature.properties["crop"+c+":time"]});
+                                            console.log({
+                                            "label": cropList[c],
+                                            "value": feature.properties["crop"+c+":percentage"],
+                                            "time": feature.properties["crop"+c+":time"]});
+                                       
+                                }
+                                    });
+                                    
+                                    
+                                }
+                                    for (var k in config["cool-crops"]){
+                                        $.map(cropData, function(data){
+                                        if (($.inArray(config["cool-crops"][k],cropList))!=-1){
+                                            cropData["cool-crops"].push({
+                                            "label": feature.properties["crop"+c+":name"],
+                                            "value": feature.properties["crop"+c+":percentage"],
+                                            "time": feature.properties["crop"+c+":time"]
+                                    
+                                    });
+                                
+                                }
+                                });
+                            
+                            }
+                            }
+                                
+                              
+                               // console.log($.inArray(config["warm-crops"],cropList));
+                                feature.properties.cropData = cropData;
+                                
+                            
+                            /*for (var c in cropList) {
                                 //console.log(c);
                                 //console.log(index);
                                 //console.log("crop"+c+":time");
@@ -419,10 +472,10 @@ function Data() {
                                         }
                                     });
                                 }
-                            }
+                            }*/
                             //console.log(cropData);
 
-                            feature.properties.cropData = cropData;
+                           // feature.properties.cropData = cropData;
 
                         } catch (e) {
                             //console.log("crop list not found for:");

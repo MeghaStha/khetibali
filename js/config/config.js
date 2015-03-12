@@ -115,7 +115,18 @@ config = {
         "3":"Shrawan - Aswin",
         "6":"Kartik - Poush",
         "9":"Magh - Chaitra"
-    }
+    },
+    "warm-crops":{
+       "0": "Rice",
+        "1": "Maize",
+        "2": "cauliflower"
+    
+    },
+    "cool-crops":[
+        "Cabbage",
+        "Potato"
+    
+    ]
 };
 
 LayerStyles = config["layer-styles"];
