@@ -1,0 +1,29 @@
+{
+	"title": "Bajrabarahi",
+	"content":[
+        {
+        "navmenu1": "<a href='#one' title='Next Section'></a><a href='#two' title='Next Section'></a><a href='#three' title='Next Section'></a></li><a href='#four' title='Next Section'></a><a href='#five' title='Next Section'></a><a href='#six' title='Next Section'></a><a href='#seven' title='Next Section'></a><a href='#eight' title='Next Section'></a>"
+        },
+		{
+			"photo-caption": "<div class='image' id='one' data-speed='15' style='background-image:url(https://farm4.staticflickr.com/3953/15135348754_ad8dd82e6b_k_d.jpg)'><div class='caption'><div class='caption-text'>Bajrabarahi is a VDC in Makwanpur district in the Bagmati Zone of Southern Nepal located at a distance of 30km from Kathmandu. At the end of 2010, it has the population of 8821 (4429 males and 4392 females).</div></div></div>"
+		},
+        {	"photo-caption": "<div class='image' id='two' data-speed='15' style='background-image:url(https://farm9.staticflickr.com/8589/15918763282_5ef1622a71_k_d.jpg)'><div class='caption'><div class='caption-text'>Rich in ethnic diversity, there are six main castes namely Newar (4451), Tamang (2195), Chhetri (1053), Bhraman (527), Gurung (338) and Kami (127) populating Bajrabarahi.</div></div></div>"
+        },
+        {	"photo-caption": "<div class='image' id='three' data-speed='15' style='background-image:url(data/pictures/khetibali_pictures/bajrabarahi/17.jpg)'><div class='caption'><div class='caption-text'>They follow and celebrate their rituals, culture and religion with joy and devotion.</div></div></div>"
+        },
+        {	"photo-caption": "<div class='image' id='four' data-speed='15' style='background-image:url(https://farm4.staticflickr.com/3949/15755303695_ace48d2d68_k_d.jpg)'><div class='caption'><div class='caption-text'>Bajrabarahi has a decent agricultural community in Nepal.</div></div></div>"
+        },
+         {	"photo-caption": "<div class='image' id='five' data-speed='15' style='background-image:url(https://farm8.staticflickr.com/7538/15731904818_43860b035f_k_d.jpg)'><div class='caption'><div class='caption-text'>Agriculture is the main occupation in Bajrabarahi. They practise agriculture for both commercial and home purposes.</div></div></div>"
+        },
+        {	"photo-caption": "<div class='image' id='six' data-speed='15' style='background-image:url(https://farm8.staticflickr.com/7485/15570092828_eb3245e3fb_k_d.jpg)'><div class='caption'><div class='caption-text'>Bajrabarahi had introduced new crops like kiwifruit, pepeno melon, off season cauliflower.</div></div></div>"
+        },
+        {	"photo-caption": "<div class='image' id='seven' data-speed='15' style='background-image:url(https://farm9.staticflickr.com/8137/15757053582_f53176a5af_k_d.jpg)'><div class='caption'><div class='caption-text'>Apart from the new crops, people cultivates different other crops eg: akhabare khorsani, kodo and even practise livestock farming.</div></div></div>"
+        },
+        {	"photo-caption": "<div class='image' id='eight' data-speed='15' style='background-image:url(https://farm4.staticflickr.com/3955/15755411485_e3be7131fd_k_d.jpg)'><div class='caption'><div class='caption-text'>According to One Village One Product programme Bajrabrahi is leading and setting example for kiwifruit farming in Makwanpur.</div></div></div>"
+        }
+        
+		]
+		
+		
+		}
+		

@@ -1,0 +1,69 @@
+{
+	"title": "Archive",
+	"content":[
+        {
+        "navmenu2": "<a href='#one' title='Next Section'></a><a href='#two' title='Next Section'></a><a href='#three' title='Next Section'></a></li><a href='#four' title='Next Section'></a><a href='#five' title='Next Section'></a><a href='#six' title='Next Section'></a><a href='#seven' title='Next Section'></a><a href='#eight' title='Next Section'></a><a href='#nine' title='Next Section'></a><a href='#ten' title='Next Section'></a><a href='#eleven' title='Next Section'></a><a href='#twelve' title='Next Section'></a><a href='#thirteen' title='Next Section'></a><a href='#fourteen' title='Next Section'></a><a href='#fifteen' title='Next Section'></a><a href='#sixteen' title='Next Section'></a><a href='#seventeen' title='Next Section'></a><a href='#eighteen' title='Next Section'></a>"
+        },
+		{
+			"photo-caption": "<div class='image' id='one' data-speed='15' style='background-image:url(https://farm4.staticflickr.com/3953/15135348754_ad8dd82e6b_k_d.jpg)'><div class='caption'><div class='caption-text'>Two people from out team visited Bajrabarahi VDC in Makwanpur district on November 6, 2014 to meet the local farmers, teachers and farmers' coorperatives to discuss the possibility of mapping agriculture and food security related data.</div></div></div>"
+		},
+        {	"photo-caption": "<div class='image' id='two' data-speed='15' style='background-image:url(data/pictures/khetibali_pictures/archive/1.jpg)'><div class='caption'><div class='caption-text'>After knowing about OpenStreetMap they were excited to map their VDC and show the world about the agricultural capacity of Bajrabarahi.</div></div></div>"
+        },
+        {	"photo-caption": "<div class='image' id='three' data-speed='15' style='background-image:url(data/pictures/khetibali_pictures/archive/3.jpg)'><div class='caption'><div class='caption-text'>We discussed the feasibility of the mapping process in the VDC.</div></div></div>"
+        },
+        {	"photo-caption": "<div class='image' id='four' data-speed='15' style='background-image:url(data/pictures/khetibali_pictures/archive/2.jpg)'><div class='caption'><div class='caption-text'>A local community consisting of Teachers, Farmers and Local youth was formed in order to coordinate the mapping work in the VDC.</div></div></div>"
+        },
+         {	"photo-caption": "<div class='image' id='five' data-speed='15' style='background-image:url(data/pictures/khetibali_pictures/archive/9.jpg)'><div class='caption'><div class='caption-text'>Our agriculture consultant provided an overview of food security to all the attendees.</div></div></div>"
+        },
+        {	"photo-caption": "<div class='image' id='six' data-speed='15' style='background-image:url(data/pictures/khetibali_pictures/archive/13.jpg)'><div class='caption'><div class='caption-text'>We showed them existing maps and how editing works in OpenStreetMap to encourage them for mapping.</div></div></div>"
+        },
+        {	"photo-caption": "<div class='image' id='seven' data-speed='15' style='background-image:url(data/pictures/khetibali_pictures/archive/14.jpg)'><div class='caption'><div class='caption-text'>They also explored OpenStreetMap in their mobile phones and were pumped up to map their village.</div></div></div>"
+        },
+        {	"photo-caption": "<div class='image' id='eight' data-speed='15' style='background-image:url(data/pictures/khetibali_pictures/archive/11.jpg)'><div class='caption'><div class='caption-text'>The volunteers went to field to collect map data using their mobile phones.</div></div></div>"
+        },
+        {
+        "photo-caption": "<div class='image' id='nine' data-speed='15' style='background-image: url(data/pictures/khetibali_pictures/archive/12.jpg)'><div class='caption'><div class='caption-text'>The volunteers quickly learned to map the data that they collected in the field with some help from the OSM Champions.</div></div></div>"
+        
+        },
+        {
+        "photo-caption": "<div class='image' id='ten' data-speed='15' style='background-image: url(data/pictures/khetibali_pictures/archive/15.jpg)'><div class='caption'><div class='caption-text'>Volunteers traced Roads, POIs, Canals, Buildings using satellite imagery.</div></div></div>"
+        
+        },
+        {
+        "photo-caption": "<div class='image' id='eleven' data-speed='15' style='background-image: url(data/pictures/khetibali_pictures/archive/16.jpg)'><div class='caption'><div class='caption-text'>We talked with local farmers to learn about their farming methods and farming process in Bajrabarahi.</div></div></div>"
+        
+        },
+        {
+        "photo-caption": "<div class='image' id='twelve' data-speed='15' style='background-image: url(data/pictures/khetibali_pictures/archive/17.jpg)'><div class='caption'><div class='caption-text'>We also visited local farms and learned in practise how farming is done in Bajrabarahi.</div></div></div>"
+        
+        },
+        {
+        "photo-caption": "<div class='image' id='thirteen' data-speed='15' style='background-image: url(data/pictures/khetibali_pictures/archive/18.jpg)'><div class='caption'><div class='caption-text'>Local farmers discussed and came up with a list of features they wanted to map.</div></div></div>"
+        
+        },
+        {
+        "photo-caption": "<div class='image' id='fourteen' data-speed='15' style='background-image: url(data/pictures/khetibali_pictures/archive/19.jpg)'><div class='caption'><div class='caption-text'>With lot of discussion and brainstroming, our team came up with a way to represent these data in Openstreetmap.</div></div></div>"
+        
+        },
+        {
+        "photo-caption": "<div class='image' id='fifteen' data-speed='15' style='background-image: url(data/pictures/khetibali_pictures/archive/20.jpg)'><div class='caption'><div class='caption-text'>This allowed the locals to start mapping their farms and major crops in Bajrabarahi.</div></div></div>"
+        
+        },
+        {
+        "photo-caption": "<div class='image' id='sixteen' data-speed='15' style='background-image: url(data/pictures/khetibali_pictures/archive/23.jpg)'><div class='caption'><div class='caption-text'>We took the approach of involving local citizens to map crop pockets with the help of their local knowledge and satellite imagery.</div></div></div>"
+        
+        },
+        {
+        "photo-caption": "<div class='image' id='seventeen' data-speed='15' style='background-image: url(data/pictures/khetibali_pictures/archive/map.jpg)'><div class='caption'><div class='caption-text'>The five days long hardwork and mapping resulted in a well detailed map of Bajrabarahi in OpenStreetMap.</div></div></div>"
+        
+        },
+        {
+        "whole": "<div class='fullpage' id='eighteen'><h1>The following names represent the local OSM community of Bajrabarahi who helped to make this project a success:</h1><ul><li>Mr. Dhruba Prasad Bidari - Manager of Small Farmer Cooperative Pvt. Ltd.</li><li>Mr. Rabindra Bidari - Accountant of Bajrabarahi H.S School</li><li>Mr. Kabi Luv Rai - Teacher of Sunaulo Secondary School</li><li>Mr. Rajen Shrestha</li><li>Mr. Krishna Bhatt</li><li>Mr. Fanindra Subedi - Kiwi Entrepreneur</li><li>Mr. Atma Ram Dahal - Teacher of Bajrabarahi H.S School</li></ul></div>"
+        
+        }
+        
+		]
+		
+		
+		}
+		

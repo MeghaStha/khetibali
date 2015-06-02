@@ -1,0 +1,34 @@
+{
+	"title": "Statistics",
+	"content": [
+              {
+		"heading" :"<p>This page shows the statistical data of Bajrabarahi VDC located in Makwanpur district of year 2068 B.S. The data is derived from the VDC profile collected from the ward office.</p>"
+	},
+        
+                {
+        "left": "<img src = 'data/pictures/VDC_stats/export.png' width = '500px'/>",
+        "right": "<img src = 'data/pictures/VDC_stats/import.png' width = '500px'/>"
+                },
+        
+                {
+                   "left": "<img src = 'data/pictures/VDC_stats/population.png' width = '500px'/>" ,     
+        "right": "<img src = 'data/pictures/VDC_stats/livestock.png' width = '500px' />"
+                },
+        
+           
+        
+                {
+                    "left":"<img src = 'data/pictures/VDC_stats/majoroccupation.png' width = '500px'/>",
+       "right": "<img src = 'data/pictures/VDC_stats/students.png' width = '500px'/>"
+                },
+        
+                {
+  
+                    "left":"<img src = 'data/pictures/VDC_stats/income.png' width = '500px'/>",
+         "right": "<img src = 'data/pictures/VDC_stats/ptpt.jpg' width = '500px'/>"
+                }
+  
+    
+        
+    ]
+}
