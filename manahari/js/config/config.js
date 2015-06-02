@@ -13,7 +13,7 @@ config = {
         "min-zoom": 13,
         "max-zoom": 22,
         "init-zoom": 13.4,
-        "center": [27.5131,84.7808]
+        "center": [27.5460,84.7808]
     },
    "layer-styles":{
         "map-features":{

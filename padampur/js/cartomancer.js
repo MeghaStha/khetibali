@@ -14,7 +14,7 @@ $(document).ready(function() {
         $(this).parent().remove();
     }));
 	// .appendTo("body") le welcome msg, body HTML element ma add garcha
-    welcomeMsg.appendTo("body");
+    //welcomeMsg.appendTo("body");
     
 	//Remove button activate garcha, mousedown is a javascript event
     $(document).on("mousedown",function(e){

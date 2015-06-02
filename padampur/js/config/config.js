@@ -12,8 +12,8 @@ config = {
     "map-options":{
         "min-zoom": 13,
         "max-zoom": 22,
-        "init-zoom": 13.4,
-        "center": [27.6779, 84.5278]
+        "init-zoom": 14.4,
+        "center": [27.6869, 84.5078]
     },
    "layer-styles":{
         "map-features":{
