@@ -280,7 +280,11 @@ function Data() {
                          dataSource: "formhub",
                          group: params.query.geometries.group
                          };*/
+                        
+                        ///////////////
 
+
+                        ////////////////////
 
                         geoJSONDB_attributes[c] = {
                             "_metaX": {
@@ -309,126 +313,60 @@ function Data() {
                 //console.log(data);
                 setTimeout(function() {
                     data.features.map(function(feature, index) {
+                       
+                    if (feature.properties.landuse=='farmland'){
 //                   console.log(feature); 
                         try {
-                            var cropList = feature.properties.crop.split(";");
-                            var cropData = {
-                                "0": [
+                          var cropList = feature.properties.crop.split(";");
+                         var cropData = {
+                                "warm-crops": [
                                 ],
-                                "3": [
-                                ],
-                                "6": [
-                                ],
-                                "9": [
+                                "cool-crops": [
                                 ]
                             };
-
-                            var cropMonthRange;
-                            //console.log(cropList);
-                            for (var c in cropList) {
-                                //console.log(c);
-                                //console.log(index);
-                                //console.log("crop"+c+":time");
-                                cropMonthRange = (feature.properties["crop" + c + ":time"] + "").split(" to ");
-                                //console.log(cropMonthRange);
-
-
-                                var seasonIndexRange = [];
-                                var startMonthIndex = config["month-list"].indexOf(cropMonthRange[0]);
-                                var endMonthIndex = config["month-list"].indexOf(cropMonthRange[1]);
-                                if ((startMonthIndex + 1) && (endMonthIndex + 1)) {
-                                    $.map(cropData, function(data, seasonID) {
-                                        switch (seasonID) {
-                                            case "0":
-                                                {
-                                                    if (startMonthIndex >= 0 && startMonthIndex < 3) {
-                                                        cropData[seasonID].push({
-                                                            "label": feature.properties["crop" + c + ":name"],
-                                                            "value": Number((feature.properties["crop" + c + ":percentage"] + "").replace(/%/g, "")),
-                                                            "caption": feature.properties["crop" + c + ":name"]
-                                                                    //,"color": config["charts"]["colors"][feature.properties["crop" + c + ":name"]]
-                                                        });
-                                                    } else if (endMonthIndex >= 0 && endMonthIndex < 3) {
-                                                        cropData[seasonID].push({
-                                                            "label": feature.properties["crop" + c + ":name"],
-                                                            "value": Number((feature.properties["crop" + c + ":percentage"] + "").replace(/%/g, "")),
-                                                            "caption": feature.properties["crop" + c + ":name"]
-                                                                    //,"color": config["charts"]["colors"][feature.properties["crop" + c + ":name"]]
-                                                        });
-                                                    }
-                                                    break;
-                                                }
-                                            case "3":
-                                                {
-                                                    if (startMonthIndex >= 3 && startMonthIndex < 6) {
-                                                        cropData[seasonID].push({
-                                                            "label": feature.properties["crop" + c + ":name"],
-                                                            "value": Number((feature.properties["crop" + c + ":percentage"] + "").replace(/%/g, "")),
-                                                            "caption": feature.properties["crop" + c + ":name"]
-                                                                    //,"color": config["charts"]["colors"][feature.properties["crop" + c + ":name"]]
-                                                        });
-                                                    } else if (endMonthIndex >= 3 && endMonthIndex < 6) {
-                                                        cropData[seasonID].push({
-                                                            "label": feature.properties["crop" + c + ":name"],
-                                                            "value": Number((feature.properties["crop" + c + ":percentage"] + "").replace(/%/g, "")),
-                                                            "caption": feature.properties["crop" + c + ":name"]
-                                                                    //,"color": config["charts"]["colors"][feature.properties["crop" + c + ":name"]]
-                                                        });
-                                                    }
-                                                    break;
-                                                }
-                                            case "6":
-                                                {
-                                                    if (startMonthIndex >= 6 && startMonthIndex < 9) {
-                                                        cropData[seasonID].push({
-                                                            "label": feature.properties["crop" + c + ":name"],
-                                                            "value": Number((feature.properties["crop" + c + ":percentage"] + "").replace(/%/g, "")),
-                                                            "caption": feature.properties["crop" + c + ":name"]
-                                                                    //,"color": config["charts"]["colors"][feature.properties["crop" + c + ":name"]]
-                                                        });
-                                                    } else if (endMonthIndex >= 6 && endMonthIndex < 9) {
-                                                        cropData[seasonID].push({
-                                                            "label": feature.properties["crop" + c + ":name"],
-                                                            "value": Number((feature.properties["crop" + c + ":percentage"] + "").replace(/%/g, "")),
-                                                            "caption": feature.properties["crop" + c + ":name"]
-                                                                    //,"color": config["charts"]["colors"][feature.properties["crop" + c + ":name"]]
-                                                        });
-                                                    }
-                                                    break;
-                                                }
-                                            case "9":
-                                                {
-                                                    if (startMonthIndex >= 9 && startMonthIndex < 12) {
-                                                        cropData[seasonID].push({
-                                                            "label": feature.properties["crop" + c + ":name"],
-                                                            "value": Number((feature.properties["crop" + c + ":percentage"] + "").replace(/%/g, "")),
-                                                            "caption": feature.properties["crop" + c + ":name"]
-                                                                    //,"color": config["charts"]["colors"][feature.properties["crop" + c + ":name"]]
-                                                        });
-                                                    } else if (endMonthIndex >= 9 && endMonthIndex < 12) {
-                                                        cropData[seasonID].push({
-                                                            "label": feature.properties["crop" + c + ":name"],
-                                                            "value": Number((feature.properties["crop" + c + ":percentage"] + "").replace(/%/g, "")),
-                                                            "caption": feature.properties["crop" + c + ":name"]
-                                                                    //,"color": config["charts"]["colors"][feature.properties["crop" + c + ":name"]]
-                                                        });
-                                                    }
-                                                    break;
-                                                }
-
-                                        }
-                                    });
-                                }
+                            
+                        $.map(cropList, function(item, index){
+                            
+                            item=item.toLowerCase().trim();
+                            
+                            if($.inArray(item,config["warm-crops"])+1){
+                                var c = index+1;
+                              
+                                cropData["warm-crops"].push({
+                                label:feature.properties["crop"+c+":name"],
+                                percentage:feature.properties["crop"+c+":percentage"],
+                                time: feature.properties["crop"+c+":time"]});
+                                
+                            } 
+                            if($.inArray(item,config["cool-crops"])+1){
+                                var k = index+1;
+                                cropData["cool-crops"].push({
+                                label:feature.properties["crop"+k+":name"],
+                                percentage:feature.properties["crop"+k+":percentage"],
+                                time: feature.properties["crop"+k+":time"]});
+                                
                             }
-                            //console.log(cropData);
-
-                            feature.properties.cropData = cropData;
-
+                            
+                        });
+                           console.log(cropData);
+                         feature.properties.cropData = cropData;
+                         var cropMonthRange;
                         } catch (e) {
                             //console.log("crop list not found for:");
                             //console.log(feature);
                             //console.log("\n");
                         }
+                   }
+                    else if (feature.properties.landuse=='orchard'){
+                    
+                        var kiwi = [];
+                        kiwi.push(feature.properties.operator,
+                                 feature.properties.area,
+                                 feature.properties.production_amount);
+                        feature.properties.kiwi = kiwi;
+                        //console.log(kiwi);
+                    console.log(feature.properties.kiwi[1]);     
+                }    
                     });
                     console.log(data);
 
