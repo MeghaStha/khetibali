@@ -1,108 +1,347 @@
 <!DOCTYPE html>
-<!--
-(c)Kathmandu Living Labs
--->
 <html>
-    <head>
-        <title>Khetibali</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<meta charset = "utf-8">
+<title>
+Khetibali
+</title>
+<meta name = "viewport" content="width=device-width, initial-scale=1">
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="bootstrap-3.3.4/js/bootstrap.js"></script>
+<script src="bootstrap-3.3.4/js/bootstrap.min.js"></script>
+<link rel="stylesheet" src="bootstrap-3.3.4/css/bootstrap.min.css"/>
+<link rel="stylesheet" src="bootstrap-3.3.2/css/bootstrap.css"/>
+<link rel="stylesheet" src="css/main.css"/>
+<link rel="stylesheet" src="font/aller.css"/>
+<link rel="stylesheet" src="font/bariol.css"/>
+<style>
+@font-face {
+    font-family: 'bariol_boldbold';
+    src: url('bariol_bold-webfont.eot');
+    src: url('bariol_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bariol_bold-webfont.woff2') format('woff2'),
+         url('bariol_bold-webfont.woff') format('woff'),
+         url('bariol_bold-webfont.ttf') format('truetype'),
+         url('bariol_bold-webfont.svg#bariol_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-        <script src="js/jquery-2.1.1.min.js"></script>
-        <script src="js/d3.min.js"></script>
-        <script src="js/d3pie.min.js"></script>
-        <script src="js/leaflet.js"></script>
-        <!--<link href='href="//fonts.googleapis.com/css?family=Lato:100normal,100italic,300normal,300italic,400normal,400italic,700normal,700italic,900normal,900italic|Open+Sans:400normal|Source+Sans+Pro:400normal|Open+Sans:400normal|Oswald:400normal|Gloria+Hallelujah:400normal|Roboto:400normal|Indie+Flower:400normal|PT+Sans:400normal|Raleway:400normal|Open+Sans+Condensed:300normal&subset=all"' rel='stylesheet' type='text/css'>-->
-        <!--<script src="js/leaflet.markercluster.js"></script>-->
-        <!--<script src="js/leaflet-search.js"></script>-->
+}
+@font-face {
+  font-family: 'Aller';
+  src: url('Aller_Std_Rg-webfont.eot') format('eot'), url('Aller_Std_Rg-webfont.woff') format('woff'), url('Aller_Std_Rg-webfont.ttf') format('truetype');
+}
 
-        <link rel="stylesheet" href="css/leaflet.css"/>
-        <!--<link rel="stylesheet" href="css/MarkerCluster.Default.css"/>-->
-        <!--<link rel="stylesheet" href="css/MarkerCluster.css"/>-->
-        <!--<link rel="stylesheet" href="css/leaflet-search.css"/>-->
+@font-face {
+  font-family: 'Aller Bold Italic';
+  src: url('Aller_Std_BdIt-webfont.eot') format('eot'), url('Aller_Std_BdIt-webfont.woff') format('woff'), url('Aller_Std_BdIt-webfont.ttf') format('truetype');
+}
 
-        <link rel="stylesheet" href="css/layout.css" data-skrollr-stylesheet/>
+@font-face {
+  font-family: 'Aller Light';
+  src: url('Aller_Std_Lt-webfont.eot') format('eot'), url('Aller_Std_Lt-webfont.woff') format('woff'), url('Aller_Std_Lt-webfont.ttf') format('truetype');
+}
 
-        <!--<link rel="stylesheet" href="css/mapstyle.css"/>-->
-        <!--<link rel="stylesheet" href="css/theme.css"/>-->
-        <script src="js/config/config.js"></script>
-        <script src="js/plugins.js"></script>
-        <!--<script src="js/plugins.js"></script>-->
-        <!--<script src="js/guiActions.js"></script>-->
-        <script src="js/data.js"></script>
-        <script src="js/cartograph.js"></script>
-        <script src="js/cartomancer.js"></script>
-    </head>
-    <body>
-        <div id="mapBox">
-            <div id="map" style="text-align:center;">
-            </div>
-            <svg>
-            <defs>
-            <pattern id='khet_1' patternUnits='userSpaceOnUse' width='15' height='15' viewBox='0 0 10 10'>
-                <line x1='1' y1='0' x2='11' y2='10' stroke='#b89c4f' stroke-width='3'/>
-                <line x1='9' y1='0' x2='-1' y2='10' stroke='#b89c4f' stroke-width='3'/>
-                <line x1='10' y1='0' x2='0' y2='10' stroke='#8f6d2e' stroke-width='3'/>
-                <line x1='0' y1='0' x2='10' y2='10' stroke='#8f6d2e' stroke-width='3'/>
-                <radialGradient id='l' cx='50%' cy='20%' fy='0' r='21%'>
-                <stop offset='0%' style='stop-color:#fff; stop-opacity:.1;' />
-                <stop offset='10%' style='stop-color:#000; stop-opacity:0.1;' />
-                <stop offset='30%' style='stop-color:#000; stop-opacity:0.3;' />
-                <stop offset='90%' style='stop-color:#000; stop-opacity:0.55;' />
-                <stop offset='100%' style='stop-color:#000; stop-opacity:.6' />
-                </radialGradient>
+@font-face {
+  font-family: 'Aller Bold';
+  src: url('Aller_Std_Bd-webfont.eot') format('eot'), url('Aller_Std_Bd-webfont.woff') format('woff'), url('Aller_Std_Bd-webfont.ttf') format('truetype');
+}
 
-                <!--<rect fill='#ebb35e' width='100%' height='100%'/>
-                <rect fill='url(#tile)' width='100%' height='100%'/>-->
-                <rect width='100%' height='100%' fill='url(#l)'/>
-            </pattern>
+@font-face {
+  font-family: 'Aller Light Italic';
+  src: url('Aller_Std_LtIt-webfont.eot') format('eot'), url('Aller_Std_LtIt-webfont.woff') format('woff'), url('Aller_Std_LtIt-webfont.ttf') format('truetype');
+}
 
-            <pattern width='16' height='20' x='0' y='0' patternUnits='userSpaceOnUse' id='bari'>
-                <rect width='16' height='20' fill='#8B4513' fill-opacity='0.3'/>
-            </pattern>
+@font-face {
+  font-family: 'Aller Italic';
+  src: url('Aller_Std_It-webfont.eot') format('eot'), url('Aller_Std_It-webfont.woff') format('woff'), url('Aller_Std_It-webfont.ttf') format('truetype');
+}
+
+body{
+height: 637px;
+}
+div.container{
+  background-color: transparent;
+  background-image: url("images/khet_blur_v2.jpg");
+  background-repeat: NO-REPEAT;
+  background-size: cover;
+  height: 100%;
+
+}
+div.vdc{
+top: 16%;
+position: absolute;
+border-radius: 15px;
+box-shadow: 5px 5px 2px #eeeeee;
+}
+div#logo{
+background-image: url("images/logo.png");
+background-repeat: no-repeat;
+position: absolute;
+width: 22%;
+height: 12.56%;
+float: left;
+left: 38.799%;
+top: 3.14%;
+}
+div#bajra{
+  height: 63.64%;
+  width: 22%;
+  float: left;
+  left: 6.22%;
+}
+div#padam{
+  height: 63.64%;
+  width: 22%;
+  float: left;
+  left: 37.7%;
+}
+div#mana{
+  height: 63.64%;
+  width: 22%;
+  float: left;
+  left: 69.18%;
+}
+div.titlebox{
+width: 98.5%;
+height: 12.56%;
+font-family: 'bariol_boldbold';
+font-size: 35px;
+position: absolute;
+text-align: center;
+border : 3px solid #008000;
+ border-top-left-radius: 15px;
+ border-top-right-radius : 15px;
+ background-color: #059905;
+}
+div.title{
+width: 100%;
+position: absolute;
+top: 20%;
+text-align: center;
+font-family: 'bariol_boldbold';
+}
+div#bajramap{
+top: 14.2%;
+float: left;
+left:1px;
+background-image: url("images/mapbajra.jpg");
+background-repeat: no-repeat;
+position: absolute;
+width: 100%;
+height: 87.2998%;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+div#manamap{
+top: 14.2%;
+left:1px;
+background-image: url("images/mapmana.jpg");
+background-repeat: no-repeat;
+position: absolute;
+width: 100%;
+height: 87.2998%;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+div#padammap{
+top: 14.2%;
+left:1px;
+background-image: url("images/mappadam.jpg");
+background-repeat: no-repeat;
+position: absolute;
+width: 100%;
+height: 87.2998%;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+div.cropicon{
+position: absolute;
+float: left;
+left: 15%;
+top: 60%;
+width: 70%;
+height:42.66%;
+}
+div.crop{
+position: relative;
+display:inline-block;
+  width: 9.66%;
+  height: 42.66%;
+    margin: 8px;
+padding: 15px 15px 15px 15px;
+}
+div#bone{
+background-image: url("images/cropicon/icons_final/potato.png");
+background-repeat: no-repeat;
+}
+div#btwo{
+background-image: url("images/cropicon/icons_final/kiwi.png");
+background-repeat: no-repeat;
+}
+div#bthree{
+background-image: url("images/cropicon/icons_final/cauliflower.png");
+background-repeat: no-repeat;
+}
+div#pone{
+background-image: url("images/cropicon/banana.png");
+background-repeat: no-repeat;
+}
+div#ptwo{
+background-image: url("images/cropicon/icons_final/brinjal.png");
+background-repeat: no-repeat;
+}
+div#pthree{
+background-image: url("images/cropicon/icons_final/corn.png");
+background-repeat: no-repeat;
+}
+div#mone{
+background-image: url("images/cropicon/icons_final/lentils.png");
+background-repeat: no-repeat;
+}
+div#mtwo{
+background-image: url("images/cropicon/icons_final/corn.png");
+background-repeat: no-repeat;
+}
+div#mthree{
+background-image: url("images/cropicon/icons_final/wheat.png");
+background-repeat: no-repeat;
+}
+.bh {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('images/mapbajra.jpg');
+  background-size: cover;
+  height: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: none;
+}
+.ph {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('images/mappadam.jpg');
+  background-size: cover;
+  height: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: none;
+}
+.mh {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('images/mapmana.jpg');
+  background-size: cover;
+  height: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: none;
+}
+.description{
+position: absolute;
+top: 20px;
+bottom: 0;
+left: 5px;
+right: 5px;
+font-family: 'Aller Light';
+}
 
 
+p {
+font-family: Aller Light;
+  margin: 0;
+  font-size: 15px;
+  width: 100%;
+}
+div#bajramap:hover .bh{
+display: block;
+}
+div#padammap:hover .ph{
+display: block;
+}
+div#manamap:hover .mh{
+display: block;
+}
 
-            <pattern id='khet' patternUnits='userSpaceOnUse' width='15' height='15' viewBox='0 0 15 15'>
-                <rect width='15' height='15' fill='#e6db68' fill-opacity='0.6'/>
-            </pattern>
-			
-            <pattern id='kiwi' patternUnits='userSpaceOnUse' width='15' height='15' viewBox='0 0 15 15'>
-                <rect width='15' height='15' fill='#ed7474' fill-opacity='0.6'/>
-            </pattern>
-            <pattern id='orchard' patternUnits='userSpaceOnUse' width='15' height='15' viewBox='0 0 15 15'>
-                <rect width='15' height='15' fill='#4fd6c6' fill-opacity='0.6'/>
-            </pattern>
-
-			
-			<!-- pic edit in fill khet and bari-->
-        <!--    <pattern id="khet" patternUnits="userSpaceOnUse" width="500" height="400">
-                <image xlink:href="data/pictures/location_summary/khet.jpg" x="0" y="0" width="500" height="400" />
-            </pattern>
-			            <pattern id="bari" patternUnits="userSpaceOnUse" width='200' height='150' >
-                <image xlink:href="data/pictures/location_summary/bari.jpg" x="0" y="0" width="200" height="150" />
-            </pattern>-->
-
-
-            <pattern id="potatoes" patternUnits="userSpaceOnUse" width="100" height="100">
-                <image xlink:href="data/pictures/location_summary/potato.jpg" x="0" y="0" width="100" height="100" />
-            </pattern>
-			      <pattern id="kiwi" patternUnits="userSpaceOnUse" width="10" height="10">
-                <image xlink:href="data/pictures/location_summary/kiwifruit.jpg" x="0" y="0" width="10" height="10" />
-            </pattern>
-			         <pattern id="cauliflower" patternUnits="userSpaceOnUse" width="60" height="40">
-                <image xlink:href="data/pictures/location_summary/cauli.jpg" x="0" y="0" width="60" height="40" />
-            </pattern>
-
-            </defs>
-
-
-            </svg>
-        </div>
-		<script type="text/javascript" src="../dist/skrollr.min.js"></script>
-
-	<script type="text/javascript">
-	skrollr.init();
-	</script>
-    </body>
+.more a{
+text-decoration : none;
+}
+.more{
+height: 30px;
+width: 30px;
+float: right;
+left: 75%;
+position: absolute;
+right: 15px;
+top: 85%;
+font-size: 25px;
+}
+div.more a:hover {
+color: green;
+text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<div class='container'>
+<div class="row">
+<div id="logo"></div>
+<div id="bajra" class="vdc"><div class="titlebox"> <div class="title"><font color="white">BAJRABARAHI</font></div></div>
+<div id = "bajramap">
+<div class='bh'>
+<div class='description'>
+<p><font color="white"> Bajrabarahi is a VDC</font></p>
+<div class="more"><a href="www.google.com"><font color="white">More</font></a></div>
+</div>
+</div>
+<div class="cropicon">
+<div id="bone" class="crop"></div>
+<div id="btwo" class="crop"></div>
+<div id="bthree" class="crop"></div>
+</div>
+</div>
+</div>
+<div id="padam" class="vdc"><div class="titlebox"><div class="title"><font color="white">PADAMPUR</font></div></div>
+<div id="padammap">
+<div class='ph'>
+<div class='description'>
+<p><font color="white"> Padampur is a VDC</font></p>
+<div class="more"><a href="www.facebook.com"><font color="white">More</font></a></div>
+</div>
+</div>
+<div class="cropicon">
+<div id="pone" class="crop"></div>
+<div id="ptwo" class="crop"></div>
+<div id="pthree" class="crop"></div>
+</div>
+</div>
+</div>
+<div id="mana" class="vdc"><div class="titlebox"><div class="title"><font color="white">MANAHARI</font></div></div>
+<div id="manamap">
+<div class='mh'>
+<div class='description'>
+<p><font color="white"> Manahari is a VDC</font></p>
+<div class="more"><a href="www.twitter.com"><font color="white">More</font></a></div>
+</div>
+</div>
+<div class="cropicon">
+<div id="mone" class="crop"></div>
+<div id="mtwo" class="crop"></div>
+<div id="mthree" class="crop"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
 </html>

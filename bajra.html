@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--
+(c)Kathmandu Living Labs
+-->
+<html>
+    <head>
+        <title>Khetibali</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/d3.min.js"></script>
+        <script src="js/d3pie.min.js"></script>
+        <script src="js/leaflet.js"></script>
+        <!--<link href='href="//fonts.googleapis.com/css?family=Lato:100normal,100italic,300normal,300italic,400normal,400italic,700normal,700italic,900normal,900italic|Open+Sans:400normal|Source+Sans+Pro:400normal|Open+Sans:400normal|Oswald:400normal|Gloria+Hallelujah:400normal|Roboto:400normal|Indie+Flower:400normal|PT+Sans:400normal|Raleway:400normal|Open+Sans+Condensed:300normal&subset=all"' rel='stylesheet' type='text/css'>-->
+        <!--<script src="js/leaflet.markercluster.js"></script>-->
+        <!--<script src="js/leaflet-search.js"></script>-->
+
+        <link rel="stylesheet" href="css/leaflet.css"/>
+        <!--<link rel="stylesheet" href="css/MarkerCluster.Default.css"/>-->
+        <!--<link rel="stylesheet" href="css/MarkerCluster.css"/>-->
+        <!--<link rel="stylesheet" href="css/leaflet-search.css"/>-->
+
+        <link rel="stylesheet" href="css/layout.css" data-skrollr-stylesheet/>
+
+        <!--<link rel="stylesheet" href="css/mapstyle.css"/>-->
+        <!--<link rel="stylesheet" href="css/theme.css"/>-->
+        <script src="js/config/config.js"></script>
+        <script src="js/plugins.js"></script>
+        <!--<script src="js/plugins.js"></script>-->
+        <!--<script src="js/guiActions.js"></script>-->
+        <script src="js/data.js"></script>
+        <script src="js/cartograph.js"></script>
+        <script src="js/cartomancer.js"></script>
+    </head>
+    <body>
+        <div id="mapBox">
+            <div id="map" style="text-align:center;">
+            </div>
+            <svg>
+            <defs>
+            <pattern id='khet_1' patternUnits='userSpaceOnUse' width='15' height='15' viewBox='0 0 10 10'>
+                <line x1='1' y1='0' x2='11' y2='10' stroke='#b89c4f' stroke-width='3'/>
+                <line x1='9' y1='0' x2='-1' y2='10' stroke='#b89c4f' stroke-width='3'/>
+                <line x1='10' y1='0' x2='0' y2='10' stroke='#8f6d2e' stroke-width='3'/>
+                <line x1='0' y1='0' x2='10' y2='10' stroke='#8f6d2e' stroke-width='3'/>
+                <radialGradient id='l' cx='50%' cy='20%' fy='0' r='21%'>
+                <stop offset='0%' style='stop-color:#fff; stop-opacity:.1;' />
+                <stop offset='10%' style='stop-color:#000; stop-opacity:0.1;' />
+                <stop offset='30%' style='stop-color:#000; stop-opacity:0.3;' />
+                <stop offset='90%' style='stop-color:#000; stop-opacity:0.55;' />
+                <stop offset='100%' style='stop-color:#000; stop-opacity:.6' />
+                </radialGradient>
+
+                <!--<rect fill='#ebb35e' width='100%' height='100%'/>
+                <rect fill='url(#tile)' width='100%' height='100%'/>-->
+                <rect width='100%' height='100%' fill='url(#l)'/>
+            </pattern>
+
+            <pattern width='16' height='20' x='0' y='0' patternUnits='userSpaceOnUse' id='bari'>
+                <rect width='16' height='20' fill='#8B4513' fill-opacity='0.3'/>
+            </pattern>
+
+
+
+            <pattern id='khet' patternUnits='userSpaceOnUse' width='15' height='15' viewBox='0 0 15 15'>
+                <rect width='15' height='15' fill='#e6db68' fill-opacity='0.6'/>
+            </pattern>
+			
+            <pattern id='kiwi' patternUnits='userSpaceOnUse' width='15' height='15' viewBox='0 0 15 15'>
+                <rect width='15' height='15' fill='#ed7474' fill-opacity='0.6'/>
+            </pattern>
+            <pattern id='orchard' patternUnits='userSpaceOnUse' width='15' height='15' viewBox='0 0 15 15'>
+                <rect width='15' height='15' fill='#4fd6c6' fill-opacity='0.6'/>
+            </pattern>
+
+			
+			<!-- pic edit in fill khet and bari-->
+        <!--    <pattern id="khet" patternUnits="userSpaceOnUse" width="500" height="400">
+                <image xlink:href="data/pictures/location_summary/khet.jpg" x="0" y="0" width="500" height="400" />
+            </pattern>
+			            <pattern id="bari" patternUnits="userSpaceOnUse" width='200' height='150' >
+                <image xlink:href="data/pictures/location_summary/bari.jpg" x="0" y="0" width="200" height="150" />
+            </pattern>-->
+
+
+            <pattern id="potatoes" patternUnits="userSpaceOnUse" width="100" height="100">
+                <image xlink:href="data/pictures/location_summary/potato.jpg" x="0" y="0" width="100" height="100" />
+            </pattern>
+			      <pattern id="kiwi" patternUnits="userSpaceOnUse" width="10" height="10">
+                <image xlink:href="data/pictures/location_summary/kiwifruit.jpg" x="0" y="0" width="10" height="10" />
+            </pattern>
+			         <pattern id="cauliflower" patternUnits="userSpaceOnUse" width="60" height="40">
+                <image xlink:href="data/pictures/location_summary/cauli.jpg" x="0" y="0" width="60" height="40" />
+            </pattern>
+
+            </defs>
+
+
+            </svg>
+        </div>
+		<script type="text/javascript" src="../dist/skrollr.min.js"></script>
+
+	<script type="text/javascript">
+	skrollr.init();
+	</script>
+    </body>
+</html>

@@ -1,0 +1,223 @@
+body{
+height: 637px;
+}
+div.container{
+  background-color: transparent;
+  background-image: url("images/khet_blur_v2.jpg");
+  background-repeat: NO-REPEAT;
+  background-size: cover;
+  height: 100%;
+
+}
+div.vdc{
+top: 16%;
+position: absolute;
+border-radius: 15px;
+box-shadow: 5px 5px 2px #eeeeee;
+}
+div#logo{
+background-image: url("images/logo.png");
+background-repeat: no-repeat;
+position: absolute;
+width: 22%;
+height: 12.56%;
+float: left;
+left: 38.799%;
+top: 3.14%;
+}
+div#bajra{
+  height: 64.64%;
+  width: 22%;
+  float: left;
+  left: 6.22%;
+}
+div#padam{
+  height: 64.64%;
+  width: 22%;
+  float: left;
+  left: 37.7%;
+}
+div#mana{
+  height: 64.64%;
+  width: 22%;
+  float: left;
+  left: 69.18%;
+}
+div.titlebox{
+width: 100%;
+height: 12.56%;
+font-family: 'bariol_boldbold';
+font-size: 35px;
+position: absolute;
+text-align: center;
+border : 3px solid #008000;
+ border-top-left-radius: 15px;
+ border-top-right-radius : 15px;
+ background-color: #059905;
+}
+div.title{
+width: 100%;
+position: absolute;
+top: 20%;
+text-align: center;
+font-family: 'bariol_boldbold';
+}
+div#bajramap{
+top: 13.9%;
+left:1px;
+background-image: url("images/mapbajra.jpg");
+background-repeat: no-repeat;
+position: absolute;
+width: 100%;
+height: 87.2998%;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+div#manamap{
+top: 13.9%;
+left:1px;
+background-image: url("images/mapmana.jpg");
+background-repeat: no-repeat;
+position: absolute;
+width: 100%;
+height: 87.2998%;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+div#padammap{
+top: 13.9%;
+left:1px;
+background-image: url("images/mappadam.jpg");
+background-repeat: no-repeat;
+position: absolute;
+width: 100%;
+height: 87.2998%;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+}
+div.cropicon{
+position: absolute;
+float: left;
+left: 15%;
+top: 60%;
+width: 70%;
+height:42.66%;
+}
+div.crop{
+position: relative;
+display:inline-block;
+  width: 9.66%;
+  height: 42.66%;
+    margin: 8px;
+padding: 15px 15px 15px 15px;
+}
+div#bone{
+background-image: url("images/cropicon/icons_final/potato.png");
+background-repeat: no-repeat;
+}
+div#btwo{
+background-image: url("images/cropicon/icons_final/kiwi.png");
+background-repeat: no-repeat;
+}
+div#bthree{
+background-image: url("images/cropicon/icons_final/cauliflower.png");
+background-repeat: no-repeat;
+}
+div#pone{
+background-image: url("images/cropicon/banana.png");
+background-repeat: no-repeat;
+}
+div#ptwo{
+background-image: url("images/cropicon/icons_final/brinjal.png");
+background-repeat: no-repeat;
+}
+div#pthree{
+background-image: url("images/cropicon/icons_final/corn.png");
+background-repeat: no-repeat;
+}
+div#mone{
+background-image: url("images/cropicon/icons_final/lentils.png");
+background-repeat: no-repeat;
+}
+div#mtwo{
+background-image: url("images/cropicon/icons_final/corn.png");
+background-repeat: no-repeat;
+}
+div#mthree{
+background-image: url("images/cropicon/icons_final/wheat.png");
+background-repeat: no-repeat;
+}
+.bh {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('images/mapbajra.jpg');
+  background-size: cover;
+  height: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: none;
+}
+.ph {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('images/mappadam.jpg');
+  background-size: cover;
+  height: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: none;
+}
+.mh {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('images/mapmana.jpg');
+  background-size: cover;
+  height: 100%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: none;
+}
+.description{
+position: absolute;
+top: 20px;
+bottom: 0;
+left: 5px;
+right: 5px;
+font-family: 'Aller Light';
+}
+
+
+p {
+font-family: Aller Light;
+  margin: 0;
+  font-size: 15px;
+  width: 100%;
+}
+div#bajramap:hover .bh{
+display: block;
+}
+div#padammap:hover .ph{
+display: block;
+}
+div#manamap:hover .mh{
+display: block;
+}
+
+.more{
+text-decoration : None;
+height: 30px;
+width: 30px;
+float: right;
+position: absolute;
+right: 15px;
+top: 90%;
+}

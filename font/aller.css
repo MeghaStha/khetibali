@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Aller';
+  src: url('Aller_Std_Rg-webfont.eot') format('eot'), url('Aller_Std_Rg-webfont.woff') format('woff'), url('Aller_Std_Rg-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aller Bold Italic';
+  src: url('Aller_Std_BdIt-webfont.eot') format('eot'), url('Aller_Std_BdIt-webfont.woff') format('woff'), url('Aller_Std_BdIt-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aller Light';
+  src: url('Aller_Std_Lt-webfont.eot') format('eot'), url('Aller_Std_Lt-webfont.woff') format('woff'), url('Aller_Std_Lt-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aller Bold';
+  src: url('Aller_Std_Bd-webfont.eot') format('eot'), url('Aller_Std_Bd-webfont.woff') format('woff'), url('Aller_Std_Bd-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aller Light Italic';
+  src: url('Aller_Std_LtIt-webfont.eot') format('eot'), url('Aller_Std_LtIt-webfont.woff') format('woff'), url('Aller_Std_LtIt-webfont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aller Italic';
+  src: url('Aller_Std_It-webfont.eot') format('eot'), url('Aller_Std_It-webfont.woff') format('woff'), url('Aller_Std_It-webfont.ttf') format('truetype');
+}
+
