@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!--
+(c)Kathmandu Living Labs
+-->
+<html>
+    <head>
+        <title>Khetibali</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="manahari/js/jquery-2.1.1.min.js"></script>
+        <script src="manahari/js/d3.min.js"></script>
+        <script src="manahari/js/d3pie.min.js"></script>
+        <script src="manahari/js/leaflet.js"></script>
+        <!--<link href='href="//fonts.googleapis.com/css?family=Lato:100normal,100italic,300normal,300italic,400normal,400italic,700normal,700italic,900normal,900italic|Open+Sans:400normal|Source+Sans+Pro:400normal|Open+Sans:400normal|Oswald:400normal|Gloria+Hallelujah:400normal|Roboto:400normal|Indie+Flower:400normal|PT+Sans:400normal|Raleway:400normal|Open+Sans+Condensed:300normal&subset=all"' rel='stylesheet' type='text/css'>-->
+        <!--<script src="js/leaflet.markercluster.js"></script>-->
+        <!--<script src="js/leaflet-search.js"></script>-->
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+        <link rel="stylesheet" href="css/leaflet.css"/>
+        <!--<link rel="stylesheet" href="css/MarkerCluster.Default.css"/>-->
+        <!--<link rel="stylesheet" href="css/MarkerCluster.css"/>-->
+        <!--<link rel="stylesheet" href="css/leaflet-search.css"/>-->
+
+        <link rel="stylesheet" href="manahari/css/layout.css" data-skrollr-stylesheet/>
+
+        <!--<link rel="stylesheet" href="css/mapstyle.css"/>-->
+        <!--<link rel="stylesheet" href="css/theme.css"/>-->
+        <script src="manahari/js/config/config.js"></script>
+        <script src="manahari/js/plugins.js"></script>
+        <script src="manahari/js/parallax-mine-v1.js"></script>
+        <!--<script src="js/plugins.js"></script>-->
+        <!--<script src="js/guiActions.js"></script>-->
+        <script src="manahari/js/data.js"></script>
+        <!--<script src="js/menu.js"></script>-->
+        <script src="manahari/js/cartograph.js"></script>
+        <script src="manahari/js/cartomancer.js"></script>
+ 
+    </head>
+    <body>
+ <div class="pure-g">
+ <div class="pure-u-1-5">
+ <div class="khetibalilogo"></div>
+ <ul class="navigation">
+    <li class="nav-item" id="bajranav-item"><a href="#">Bajrabarahi VDC</a>
+	<ul>
+	<li class="subnav-item" id="bajra-map"><a href="bajra.html">Map </a></li>
+	<li class="subnav-item" id="bajra-profile"><a href="#">Profile</a></li>
+	</ul>
+	</li>
+    <li class="nav-item" id="padamnav-item"><a href="#">Padampur VDC</a>
+	<ul>
+	<li class="subnav-item" id="padam-map"><a href="padam.html">Map </a></li>
+	<li class="subnav-item" id="padam-profile"><a href="#">Profile</a></li>
+	</ul>
+	</li>
+    <li class="nav-item" id="mananav-item"><a href="#">Manahari VDC</a>
+	<ul>
+	<li class="subnav-item" id="mana-map"><a href="mana.html">Map </a></li>
+	<li class="subnav-item" id="mana-profile"><a href="#">Profile</a></li>
+	</ul>
+	</li>
+    <li class="nav-item"><a href="#">The Mapping Process</a></li>
+    <li class="nav-item"><a href="#">About Khetibali</a></li>
+</ul>
+
+		</div>
+				<div class="pure-u-4-5">
+        <div id="mapBox">
+          <!--<nav class="menu-opener">
+            //<div class="menu-opener-inner"></div>
+            //</nav>-->
+            <div id="map" style="text-align:center;">
+                
+				<div class="legend">
+		<div class="legend-title">लिजेन्ड</div>
+		<div class="legend-container">
+		<div class="label">
+		<img src="manahari/css/images/khet.png" width="18px" height="18px"><span>खेत</span>
+		</div>
+		<div class="label">
+		<img src="manahari/css/images/bari.png" width="18px" height="18px"><span>बारी</span>
+		</div>
+		<div class="label">
+		<img src="manahari/css/images/orchard.PNG" width="18px" height="18px"><span>किवी</span>
+		</div>
+		<div class="label">
+		<img src="manahari/css/images/trunk.PNG" width="18px" height="18px"><span>राजमार्ग</span>
+		</div>
+		<div class="label">
+		<img src="manahari/css/images/track.PNG" width="18px" height="18px"><span>कची बाटो</span>
+		</div>
+		<div class="label">
+		<img src="manahari/css/images/path.PNG" width="18px" height="18px"><span>गोरेटो बाटो</span>
+		</div>
+		</div>		
+		</div>
+					<div class="legend-grey">
+		<div class="legend-title-grey">लिजेन्ड</div>
+		<div class="legend-container-grey">
+		<div class="label-grey">
+		<img src="manahari/css/images/khet.png" width="18px" height="18px"><span>खेत</span>
+		</div>
+		<div class="label-grey">
+		<img src="manahari/css/images/bari.png" width="18px" height="18px"><span>बारी</span>
+		</div>
+		<div class="label-grey">
+		<img src="manahari/css/images/orchard.PNG" width="18px" height="18px"><span>किवी</span>
+		</div>
+		<div class="label-grey">
+		<img src="manahari/css/images/trunk-grey.PNG" width="18px" height="18px"><span>राजमार्ग</span>
+		</div>
+		<div class="label-grey">
+		<img src="manahari/css/images/track-grey.PNG" width="18px" height="18px"><span>कची बाटो</span>
+		</div>
+		<div class="label-grey">
+		<img src="manahari/css/images/path-grey.PNG" width="18px" height="18px"><span>गोरेटो बाटो</span>
+		</div>
+		</div>		
+		</div>
+		</div>
+            </div>
+				<div class="klllogo"></div>
+						</div>
+            <svg>
+            <defs>
+            <pattern id='khet_1' patternUnits='userSpaceOnUse' width='15' height='15' viewBox='0 0 10 10'>
+                <line x1='1' y1='0' x2='11' y2='10' stroke='#b89c4f' stroke-width='3'/>
+                <line x1='9' y1='0' x2='-1' y2='10' stroke='#b89c4f' stroke-width='3'/>
+                <line x1='10' y1='0' x2='0' y2='10' stroke='#8f6d2e' stroke-width='3'/>
+                <line x1='0' y1='0' x2='10' y2='10' stroke='#8f6d2e' stroke-width='3'/>
+                <radialGradient id='l' cx='50%' cy='20%' fy='0' r='21%'>
+                <stop offset='0%' style='stop-color:#fff; stop-opacity:.1;' />
+                <stop offset='10%' style='stop-color:#000; stop-opacity:0.1;' />
+                <stop offset='30%' style='stop-color:#000; stop-opacity:0.3;' />
+                <stop offset='90%' style='stop-color:#000; stop-opacity:0.55;' />
+                <stop offset='100%' style='stop-color:#000; stop-opacity:.6' />
+                </radialGradient>
+
+                <!--<rect fill='#ebb35e' width='100%' height='100%'/>
+                <rect fill='url(#tile)' width='100%' height='100%'/>-->
+                <rect width='100%' height='100%' fill='url(#l)'/>
+            </pattern>
+
+                <pattern width='16' height='20' x='0' y='0' patternUnits='userSpaceOnUse' id='bari'>
+                <rect width='16' height='20' fill='#d6af75' fill-opacity='0.5'/>
+            </pattern>
+
+
+
+           <pattern id='khet' patternUnits='userSpaceOnUse' width='15' height='15' viewBox='0 0 15 15'>
+                <rect width='15' height='15' fill='#e6db68' fill-opacity='0.6'/>
+            </pattern>
+			
+            <pattern id='kiwi' patternUnits='userSpaceOnUse' width='15' height='15' viewBox='0 0 15 15'>
+                <rect width='15' height='15' fill='#ed7474' fill-opacity='0.6'/>
+            </pattern>
+            <pattern id='orchard' patternUnits='userSpaceOnUse' width='15' height='15' viewBox='0 0 15 15'>
+                <rect width='15' height='15' fill='#4fd6c6' fill-opacity='0.6'/>
+            </pattern>
+
+			
+			<!-- pic edit in fill khet and bari-->
+        <!--    <pattern id="khet" patternUnits="userSpaceOnUse" width="500" height="400">
+                <image xlink:href="data/pictures/location_summary/khet.jpg" x="0" y="0" width="500" height="400" />
+            </pattern>
+			            <pattern id="bari" patternUnits="userSpaceOnUse" width='200' height='150' >
+                <image xlink:href="data/pictures/location_summary/bari.jpg" x="0" y="0" width="200" height="150" />
+            </pattern>-->
+
+
+            <pattern id="potatoes" patternUnits="userSpaceOnUse" width="100" height="100">
+                <image xlink:href="manahari/data/pictures/location_summary/potato.jpg" x="0" y="0" width="100" height="100" />
+            </pattern>
+			      <pattern id="kiwi" patternUnits="userSpaceOnUse" width="10" height="10">
+                <image xlink:href="manahari/data/pictures/location_summary/kiwifruit.jpg" x="0" y="0" width="10" height="10" />
+            </pattern>
+			         <pattern id="cauliflower" patternUnits="userSpaceOnUse" width="60" height="40">
+                <image xlink:href="manahari/data/pictures/location_summary/cauli.jpg" x="0" y="0" width="60" height="40" />
+            </pattern>
+
+            </defs>
+
+
+            </svg>
+			
+		</div>
+       
+       <script>
+	   $('#bajranav-item').click(function(){
+	   $(this).toggleClass("on");
+	   if ($(this).hasClass("on")){
+	   	   $("#bajra-map").css("display","block");
+	   $("#bajra-profile").css("display","block");
+
+	//   $("#padam-map").hide();
+	  // $("#padam-profile").hide();
+	   //$('#mana-map').css("display","none");
+	   //$('#mana-profile').css("display","none");
+	   }
+	   else{
+	   	   $('#bajra-map').css("display","none");
+	   $('#bajra-profile').css("display","none");
+	   }
+	    });
+		  $('#padamnav-item').click(function(){
+	   $(this).toggleClass("on");
+	   if ($(this).hasClass("on")){
+	   $("#padam-map").css("display","block");
+	   $("#padam-profile").css("display","block");
+	  // $('#bajra-map').css("display","none");
+	   //$('#bajra-profile').css("display","none");
+	   //$('#mana-map').css("display","none");
+	   //$('#mana-profile').css("display","none");
+	   }
+	   else{
+	   $('#padam-map').css("display","none");
+	   $('#padam-profile').css("display","none");
+	   }
+	   });
+        $('#mananav-item').click(function(){
+	   $(this).toggleClass("on");
+	   if ($(this).hasClass("on")){
+   	   $('#mana-map').css("display","none");
+	   $('#mana-profile').css("display","none");
+	   //$('#bajra-map').css("display","none");
+	   //$('#bajra-profile').css("display","none");
+	   //$("#padam-map").hide();
+	   //$("#padam-profile").hide();
+	   }
+	   else{
+	   $("#mana-map").css("display","block");
+	   $("#mana-profile").css("display","block");
+	   }
+	   });
+
+        </script>
+			<script type="text/javascript">
+	
+	</script>
+
+
+    </body>
+
+    </body>
+</html>

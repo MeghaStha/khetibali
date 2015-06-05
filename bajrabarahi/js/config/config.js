@@ -1,6 +1,6 @@
 config = {
     api: {
-        url: "data/",
+        url: "bajrabarahi/data/",
         type: "GET",
         "location-summary-base-url": "location_summary/"
     },

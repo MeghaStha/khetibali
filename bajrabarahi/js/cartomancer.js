@@ -39,17 +39,17 @@ $(document).ready(function() {
         $(map.getPanes().tilePane).toggleClass("grayscale", layer.name === "OpenStreetMap Grayscale");
     if ($(map.getPanes().tilePane).hasClass("grayscale")){
         console.log(layer.name);
-        $('.legend-name').hide();
+        //$('.legend-name').hide();
        
-        $('.legend-name-grey').show();
+        $('.legend-grey').show();
        // $('.legend-grey').hide();
       $('.legend').hide();
     }
         else {
-           $('.legend-name').show();
+         //  $('.legend-name').show();
        
-        $('.legend-name-grey').hide();
         $('.legend-grey').hide();
+        $('.legend').show();
         // $('.legend').hide();
         }
      
@@ -233,13 +233,13 @@ $(document).ready(function() {
         };
     }
 
-    (new UI_Navigation(new navigationColumnOptions(config))).done(function(uiObject) {
-        uiObject.getUI().appendTo("body");
+   // (new UI_Navigation(new navigationColumnOptions(config))).done(function(uiObject) {
+      //  uiObject.getUI().appendTo("body");
         //layerSwitcherLegend.uiElement.hide();
-        $("a.ui-map-view-reset").addClass("inactive");
+       // $("a.ui-map-view-reset").addClass("inactive");
 
 
-    });
+   // });
     /*$("<div class='col-plug'>").appendTo($("#extension-box").find(".ui-button-column-toggle"));*/
 
     var locationsLayerGroup;
@@ -624,24 +624,24 @@ $(document).ready(function() {
 //            map.setZoom(config["map-options"]["init-zoom"]);
 //        }, 10000);
 //    }
-$('.legend-name').click(function(){
+/*$('.legend-name').click(function(){
 $('.legend').show();
 $('.legend-name').hide();
 });
 
 $('.legend-title').append($("<span>X</span>").on('click',function(e){
 	$('.legend').hide();
-	$('.legend-name').show();
+	//$('.legend-name').show();
 }));
     $('.legend-name-grey').click(function(){
 $('.legend-grey').show();
-$('.legend-name-grey').hide();
+//$('.legend-name-grey').hide();
 });
 
 $('.legend-title-grey').append($("<span>X</span>").on('click',function(e){
 	$('.legend-grey').hide();
-	$('.legend-name-grey').show();
-}));
+	//$('.legend-name-grey').show();
+}));*/
 });
 $.fn.attrByFunction = function(fn) {
     return $(this).each(function() {

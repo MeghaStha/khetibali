@@ -10,287 +10,9 @@ Khetibali
 <script src="js/jquery-2.1.1.min.js"></script>
 <script src="bootstrap-3.3.4/js/bootstrap.js"></script>
 <script src="bootstrap-3.3.4/js/bootstrap.min.js"></script>
-<link rel="stylesheet" src="bootstrap-3.3.4/css/bootstrap.min.css"/>
-<link rel="stylesheet" src="bootstrap-3.3.2/css/bootstrap.css"/>
-<link rel="stylesheet" src="css/main.css"/>
-<link rel="stylesheet" src="fonts/aller.css"/>
-<link rel="stylesheet" src="fonts/bariol.css"/>
-<style>
-@font-face {
-    font-family: 'bariol_boldbold';
-    src: url('bariol_bold-webfont.eot');
-    src: url('bariol_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('bariol_bold-webfont.woff2') format('woff2'),
-         url('bariol_bold-webfont.woff') format('woff'),
-         url('bariol_bold-webfont.ttf') format('truetype'),
-         url('bariol_bold-webfont.svg#bariol_boldbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-  font-family: 'Aller';
-  src: url('Aller_Std_Rg-webfont.eot') format('eot'), url('Aller_Std_Rg-webfont.woff') format('woff'), url('Aller_Std_Rg-webfont.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Aller Bold Italic';
-  src: url('Aller_Std_BdIt-webfont.eot') format('eot'), url('Aller_Std_BdIt-webfont.woff') format('woff'), url('Aller_Std_BdIt-webfont.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Aller Light';
-  src: url('Aller_Std_Lt-webfont.eot') format('eot'), url('Aller_Std_Lt-webfont.woff') format('woff'), url('Aller_Std_Lt-webfont.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Aller Bold';
-  src: url('Aller_Std_Bd-webfont.eot') format('eot'), url('Aller_Std_Bd-webfont.woff') format('woff'), url('Aller_Std_Bd-webfont.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Aller Light Italic';
-  src: url('Aller_Std_LtIt-webfont.eot') format('eot'), url('Aller_Std_LtIt-webfont.woff') format('woff'), url('Aller_Std_LtIt-webfont.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Aller Italic';
-  src: url('Aller_Std_It-webfont.eot') format('eot'), url('Aller_Std_It-webfont.woff') format('woff'), url('Aller_Std_It-webfont.ttf') format('truetype');
-}
-
-body{
-height: 660px;
-}
-div.container{
-  background-color: transparent;
-  background-image: url("images/khet_blur_v2.jpg");
-  background-repeat: NO-REPEAT;
-  background-size: cover;
-  height: 100%;
-
-}
-div.vdc{
-top: 20%;
-position: absolute;
-border-radius: 15px;
-box-shadow: 5px 5px 2px #eeeeee;
-}
-div#logo{
-background-image: url("images/logo.png");
-background-repeat: no-repeat;
-position: absolute;
-width: 22%;
-height: 12.56%;
-float: left;
-left: 38.799%;
-top: 3.14%;
-}
-div#bajra{
-  height: 62.87%;
-  width: 22%;
-  float: left;
-  left: 6.22%;
-}
-div#padam{
-  height: 62.87%;
-  width: 22%;
-  float: left;
-  left: 37.7%;
-}
-div#mana{
-  height:  62.87%;;
-  width: 22%;
-  float: left;
-  left: 69.18%;
-}
-div.titlebox{
-width: 98.5%;
-height: 12.56%;
-font-family: 'bariol_boldbold';
-font-size: 35px;
-position: absolute;
-text-align: center;
-border : 3px solid #008000;
- border-top-left-radius: 15px;
- border-top-right-radius : 15px;
- background-color: #059905;
-}
-div.title{
-width: 100%;
-position: absolute;
-top: 20%;
-text-align: center;
-font-family: 'bariol_boldbold';
-}
-div#bajramap{
-top: 14.2%;
-float: left;
-left:1px;
-background-image: url("images/mapbajra.jpg");
-background-repeat: no-repeat;
-position: absolute;
-width: 100%;
-height: 86%;
-border-bottom-left-radius: 15px;
-border-bottom-right-radius: 15px;
-}
-div#manamap{
-top: 14.2%;
-left:1px;
-background-image: url("images/mapmana.jpg");
-background-repeat: no-repeat;
-position: absolute;
-width: 100%;
-height: 86%;
-border-bottom-left-radius: 15px;
-border-bottom-right-radius: 15px;
-}
-div#padammap{
-top: 14.2%;
-left:1px;
-background-image: url("images/mappadam.jpg");
-background-repeat: no-repeat;
-position: absolute;
-width: 100%;
-height: 86%;
-border-bottom-left-radius: 15px;
-border-bottom-right-radius: 15px;
-}
-div.cropicon{
-position: absolute;
-float: left;
-left: 15%;
-top: 60%;
-width: 70%;
-height:42.66%;
-}
-div.crop{
-position: relative;
-display:inline-block;
-  width: 9.66%;
-  height: 42.66%;
-    margin: 8px;
-padding: 15px 15px 15px 15px;
-}
-div#bone{
-background-image: url("images/cropicon/icons_final/potato.png");
-background-repeat: no-repeat;
-}
-div#btwo{
-background-image: url("images/cropicon/icons_final/kiwi.png");
-background-repeat: no-repeat;
-}
-div#bthree{
-background-image: url("images/cropicon/icons_final/cauliflower.png");
-background-repeat: no-repeat;
-}
-div#pone{
-background-image: url("images/cropicon/banana.png");
-background-repeat: no-repeat;
-}
-div#ptwo{
-background-image: url("images/cropicon/icons_final/brinjal.png");
-background-repeat: no-repeat;
-}
-div#pthree{
-background-image: url("images/cropicon/icons_final/corn.png");
-background-repeat: no-repeat;
-}
-div#mone{
-background-image: url("images/cropicon/icons_final/lentils.png");
-background-repeat: no-repeat;
-}
-div#mtwo{
-background-image: url("images/cropicon/icons_final/corn.png");
-background-repeat: no-repeat;
-}
-div#mthree{
-background-image: url("images/cropicon/icons_final/wheat.png");
-background-repeat: no-repeat;
-}
-.bh {
-  background: 
-    linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url('images/mapbajra.jpg');
-  background-size: cover;
-  height: 100%;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  display: none;
-}
-.ph {
-  background: 
-    linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url('images/mappadam.jpg');
-  background-size: cover;
-  height: 100%;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  display: none;
-}
-.mh {
-  background: 
-    linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url('images/mapmana.jpg');
-  background-size: cover;
-  height: 100%;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  display: none;
-}
-.description{
-position: absolute;
-top: 20px;
-bottom: 0;
-left: 5px;
-right: 5px;
-font-family: 'Aller Light';
-}
-
-
-p {
-font-family: Aller Light;
-  margin: 0;
-  font-size: 15px;
-  width: 100%;
-}
-div#bajramap:hover .bh{
-display: block;
-}
-div#padammap:hover .ph{
-display: block;
-}
-div#manamap:hover .mh{
-display: block;
-}
-
-.more a{
-text-decoration : none;
-}
-.more{
-height: 30px;
-width: 30px;
-float: right;
-left: 75%;
-position: absolute;
-right: 15px;
-top: 85%;
-font-size: 25px;
-}
-div.more a:hover {
-color: green;
-text-decoration: underline;
-}
-</style>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="font/aller.css">
+<link rel="stylesheet" href="font/bariol.css">
 </head>
 <body>
 <div class='container'>
@@ -300,8 +22,8 @@ text-decoration: underline;
 <div id = "bajramap">
 <div class='bh'>
 <div class='description'>
-<p><font color="black"> Bajrabarahi is a VDC</font></p>
-<div class="more"><a href="bajrabarahi/index.html"><font color="black">More</font></a></div>
+<p><font color="black">Bajrabarahi is a VDC that lies in the Northern part of the Makwanpur district. A beautiful valley surrounded by hills in all sides is rich in culture, history and its agricultural produce. Bajrabarahi is a leading supplier of cauliflower to the major markets in Nepal and is famous for its off season vegetable. It has an active small farmers cooperative who are working to introduce new produce like Kiwifruit and Pepinomelon to the nepali market. </font></p>
+<div class="more"><a href="bajra.html"><font color="black">More</font></a></div>
 </div>
 </div>
 <div class="cropicon">
@@ -316,7 +38,7 @@ text-decoration: underline;
 <div class='ph'>
 <div class='description'>
 <p><font color="black"> Padampur is a VDC</font></p>
-<div class="more"><a href="padampur/index.html"><font color="black">More</font></a></div>
+<div class="more"><a href="padam.html"><font color="black">More</font></a></div>
 </div>
 </div>
 <div class="cropicon">
@@ -331,7 +53,7 @@ text-decoration: underline;
 <div class='mh'>
 <div class='description'>
 <p><font color="black"> Manahari is a VDC</font></p>
-<div class="more"><a href="manahari/index.html"><font color="black">More</font></a></div>
+<div class="more"><a href="mana.html"><font color="black">More</font></a></div>
 </div>
 </div>
 <div class="cropicon">

@@ -119,7 +119,7 @@
         "crop": "Banana",
         "crop1:name": "Banana",
         "crop1:percentage": "100",
-        "landuse": "farmland",
+        "landuse": "orchard",
         "source": "BajrabarahiFieldVisit"
       },
       "geometry": {
@@ -2098,6 +2098,7 @@
         "crop5:time": "Mangsir to Chaitra",
         "farming_technology": "modern",
         "landuse": "farmland",
+		"farming_system" : "khet",
         "source": "Agriculture and Food Security Mapping"
       },
       "geometry": {
@@ -6937,80 +6938,7 @@
         ]
       }
     },
-    {
-      "type": "Feature",
-      "id": "way/338630777",
-      "properties": {
-        "@id": "way/338630777",
-        "building": "yes",
-        "crop": "mushroom",
-        "operator": "chitra bahadur bhandari"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              84.5104932,
-              27.688886
-            ],
-            [
-              84.510471,
-              27.688766
-            ],
-            [
-              84.5106373,
-              27.688742
-            ],
-            [
-              84.5106595,
-              27.6888619
-            ],
-            [
-              84.5104932,
-              27.688886
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/338630781",
-      "properties": {
-        "@id": "way/338630781",
-        "crop": "mushroom",
-        "landuse": "farmland",
-        "operator": "nir bahadur tamang"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              84.5126489,
-              27.6842404
-            ],
-            [
-              84.5126264,
-              27.6840658
-            ],
-            [
-              84.5127129,
-              27.684057
-            ],
-            [
-              84.5127354,
-              27.6842316
-            ],
-            [
-              84.5126489,
-              27.6842404
-            ]
-          ]
-        ]
-      }
-    },
+        
     {
       "type": "Feature",
       "id": "way/338725635",

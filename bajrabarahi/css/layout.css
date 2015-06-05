@@ -633,7 +633,7 @@ table.table, th, td {
 
 .leaflet-control-scale{
     
-    padding-left: 300px;
+/*    padding-left: 300px;*/
 }
 
 #ui-overview-map{
@@ -814,12 +814,12 @@ div.legend {
   background-color: #f5f5f5;
   z-index: 100;
   border-radius: 8px;
-  width: 180px;
-  height: 235px;
-  left: 80.5%;
-  top: 120px;
+  width: 13.1777%;
+  height: 34.89%;
+  left: 86.38%;
+  top: 17.62%;
   text-align: left;
-  display: none;
+ /* display: none;*/
 }
 div.legend .legend-title {
   text-align: center;
@@ -967,7 +967,7 @@ color: #000;
   backface-visibility: hidden;
 }
 .leaflet-control-scale.leaflet-control {
-  padding-left: 265px;
+/*  padding-left: 265px;*/
 }
 .floating-page div.navmenu {
   postion: fixed;
@@ -1062,10 +1062,10 @@ div.legend-grey {
   background-color: #f5f5f5;
   z-index: 100;
   border-radius: 8px;
-  width: 180px;
-  height: 220px;
-  left: 80.5%;
-  top: 120px;
+  width: 13.1777%;
+  height: 32.89%;
+  left: 86.38%;
+  top: 17.62%;
   text-align: left;
   display: none;
 }
@@ -1168,118 +1168,7 @@ tr.alt {
 .table-preview {
   width: 300px;
 }
-.floating-page div.navmenu1 {
- /* position: fixed;
-  position: absolute;
-  text-align: center;
-  left: 58%;
-    top: 10%;
-  width: 100%; 
-  color: red;
-  z-index: 1000;*/
-  position: fixed;
-  top: 50%;
-  right: 17px;
-  width: 34px;
-  height: 190px;
-  margin-top: -130px;
-  z-index: 9999;
-  /*background: transparent url(images/translucentbar.png);*/
 
-
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-
-}
-
-.navmenu1 a{  
-display: block;
-  height: 7px;
-  width: 7px;
-  background-size: 17px 17px;
-  margin: 7px 10px;
-  /*background: transparent url(images/dot.png) no-repeat;*/
-     background-color: white; 
-    border-radius: 16px;
-}
-.navmenu1 a:hover{
-    background-color: red;
-opacity: 0.5;
-}
-navmenu1 a:before {
-  background-image: inherit;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  content: '';
-  height: 100%;
-  left: 0px;
-  opacity: 0.5;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-  z-index: -1;
-  -webkit-transition: opacity 300ms;
-  transition: opacity 300ms;
-}
-navmenu1 a:hover:before {
-  opacity: 1;
-}
-.floating-page div.navmenu2 {
- /* position: fixed;
-  position: absolute;
-  text-align: center;
-  left: 58%;
-    top: 10%;
-  width: 100%; 
-  color: red;
-  z-index: 1000;*/
-  position: fixed;
-  top: 50%;
-  right: 17px;
-  width: 26px;
-  height: 300px;
-  margin-top: -130px;
-  z-index: 9999;
-  /*background: transparent url(images/translucentbar.png);*/
-  border-bottom-left-radius: 10px;
-  border-top-left-radius: 10px;
-
-}
-
-.navmenu2 a{  
-display: block;
-  height: 7px;
-  width: 7px;
-  background-size: 17px 17px;
-  margin: 7px 10px;
-  /*background: transparent url(images/dot.png) no-repeat;*/
-     background-color: white; 
-    border-radius: 16px;
-}
-.navmenu2 a:hover{
-    background-color: red;
-opacity: 0.5;
-}
-navmenu2 a:before {
-  background-image: inherit;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  content: '';
-  height: 100%;
-  left: 0px;
-  opacity: 0.5;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-  z-index: -1;
-  -webkit-transition: opacity 300ms;
-  transition: opacity 300ms;
-}
-navmenu2 a:hover:before {
-  opacity: 1;
-}
 #wnewList, #cnewList {
   display: block;
   color: black;
@@ -1352,6 +1241,93 @@ color: white;
 padding-left:10px;
 position: relative;
 z-index: 1;
+}
+/* Navigation Menu - Background */
+.navigation {
+  /* critical sizing and position styles */
+  width: 17.276%;
+  height: 100%;
+  position: fixed;
+  top: 12%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  
+  /* non-critical appearance styles */
+  list-style: none;
+    background: #BBCDAF;
+}
+
+/* Navigation Menu - List items */
+.nav-item {
+  /* non-critical appearance styles */
+ /* width: 200px;*/
+  border-top: 1px solid #BBCDAF;
+  border-bottom: 1px solid #BBCDAF;
+}
+
+.nav-item a {
+  /* non-critical appearance styles */
+  display: block;
+  padding: 1em;
+  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(130, 160, 111, 1) 100%);
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: color 0.2s, background 0.5s;
+}
+
+.nav-item a:hover {
+  color: #c74438;
+  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
+}
+/* Navigation Menu - List items */
+.subnav-item {
+  /* non-critical appearance styles */
+ /* width: 200px;*/
+  border-top: 1px solid #BBCDAF;
+  border-bottom: 1px solid #BBCDAF;
+  display:none;
+}
+
+.subnav-item a {
+  /* non-critical appearance styles */
+  display: block;
+  padding: 1em;
+  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(130, 160, 111, 1) 100%);
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: color 0.2s, background 0.5s;
+}
+
+.subnav-item a:hover {
+  color: #c74438;
+  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
+}
+
+.khetibalilogo {
+background-image: url('images/logo.png');
+background-color: #BBCDAF;
+background-repeat: no-repeat;
+  height: 70px;
+    padding-bottom: 4em;
+}
+.klllogo {
+background-image: url('images/logo.png');
+background-color: #BBCDAF;
+background-repeat: no-repeat;
+  height: 70px;
+}
+#bajra-map{
+display: block;
+}
+#bajra-map:active{
+display: block;
+}
+#bajra-profile{
+display: block;
 }
 
 /*#toggle.on .one {

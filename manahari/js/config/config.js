@@ -1,6 +1,6 @@
 config = {
     api: {
-        url: "data/",
+        url: "manahari/data/",
         type: "GET",
         "location-summary-base-url": "location_summary/"
     },
