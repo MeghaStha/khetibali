@@ -295,3 +295,22 @@ background-color: #BBCDAF;
 background-repeat: no-repeat;
   height: 70px;
 }
+.navigation {
+  /* critical sizing and position styles */
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  top: 12%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  
+  /* non-critical appearance styles */
+  list-style: none;
+    background: #BBCDAF;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}

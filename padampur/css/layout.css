@@ -452,15 +452,12 @@ img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-clickable {
     margin-left: 2px;
     margin-right: 4px;
 }*/
-
-
-
-.leaflet-bottom.leaflet-right .floating-page .content{
-    height: auto;
-    margin: 0px;
-    padding: 0px;
-    flex-flow: initial;
-    box-shadow: initial;
+.leaflet-bottom.leaflet-right .floating-page .content {
+  height: 85px;
+  overflow-y: hidden;
+  padding: 0px;
+  flex-flow: initial;
+  box-shadow: initial;
 }
 
 .widget-small{
@@ -1353,21 +1350,7 @@ position: relative;
 z-index: 1;
 }
 /* Navigation Menu - Background */
-.navigation {
-  /* critical sizing and position styles */
-  width: 17.276%;
-  height: 100%;
-  position: fixed;
-  top: 12%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 0;
-  
-  /* non-critical appearance styles */
-  list-style: none;
-    background: #BBCDAF;
-}
+
 
 /* Navigation Menu - List items */
 .nav-item {
