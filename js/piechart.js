@@ -1,4 +1,15 @@
 $(document).ready(function(){
+var myLabelFormatter = function (context) {
+    var label = context.label;
+
+    // if it's a single bird seen, add an exclamation mark to the outer label
+    if (context.section === 'outer') {
+        if (context.value === 1) {
+            label = label + '!';
+        }
+    }
+    return label;
+};
 var pie = new d3pie("pop",{
 header:{
  title: {
@@ -11,6 +22,12 @@ header:{
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
+    labels: {
+        formatter: myLabelFormatter,
+        inner: {
+            format: "value"
+        }
+    },
  data :{
 		content: [
 		{label: "Male", value: 9229},
@@ -32,6 +49,12 @@ header:{
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
+	    labels: {
+        formatter: myLabelFormatter,
+        inner: {
+            format: "value"
+        }
+    },
  data :{
 		content: [
 		{label: "Agriculture", value: 46},
@@ -57,6 +80,12 @@ header:{
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
+	    labels: {
+        formatter: myLabelFormatter,
+        inner: {
+            format: "value"
+        }
+    },
  data :{
 		content: [
 		{label: "Male Literate", value: 78},
@@ -78,6 +107,12 @@ header:{
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
+	    labels: {
+        formatter: myLabelFormatter,
+        inner: {
+            format: "value"
+        }
+    },
  data :{
 		content: [
 		{label: "Cow", value: 957},
@@ -101,6 +136,12 @@ header:{
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
+	    labels: {
+        formatter: myLabelFormatter,
+        inner: {
+            format: "value"
+        }
+    },
 data : {
  content: [
  {label: "Food Crops", value : 71},

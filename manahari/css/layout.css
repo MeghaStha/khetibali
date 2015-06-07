@@ -456,7 +456,8 @@ img.leaflet-marker-icon.leaflet-zoom-animated.leaflet-clickable {
 
 
 .leaflet-bottom.leaflet-right .floating-page .content{
-    height: auto;
+   height: 85px;
+  overflow-y: hidden;
     margin: 0px;
     padding: 0px;
     flex-flow: initial;
@@ -632,9 +633,7 @@ table.table, th, td {
 }
 
 .leaflet-control-scale{
-    
-    padding-left: 300px;
-}
+    }
 
 #ui-overview-map{
     width: 200px;
@@ -965,8 +964,7 @@ color: #000;
   backface-visibility: hidden;
 }
 .leaflet-control-scale.leaflet-control {
-  padding-left: 265px;
-}
+  }
 .floating-page div.navmenu {
   postion: fixed;
   position: absolute;

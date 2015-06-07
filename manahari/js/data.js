@@ -362,7 +362,8 @@ function Data() {
                         var kiwi = [];
                         kiwi.push(feature.properties.operator,
                                  feature.properties.area,
-                                 feature.properties.production_amount);
+                                 feature.properties.production_amount,
+								 feature.properties.crop);
                         feature.properties.kiwi = kiwi;
                         //console.log(kiwi);
                     console.log(feature.properties.kiwi[1]);     

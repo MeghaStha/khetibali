@@ -1057,10 +1057,7 @@ function UI_PiechartGallery(options) {
                            // wlistItem.append(",");
                  var wsr = '';
                for (var i=0; i<options.charts['warm-crops'].length; i++){
-                           
-                // console.log(options.charts['warm-crops'][i]['label']);
-                //wlistItem.append(options.charts['warm-crops'][i]['label']);
-                   if (options.charts['warm-crops'].length === 1){
+               if (options.charts['warm-crops'].length === 1){
                    // wlistItem.append(options.charts['warm-crops'][0]['label']);
                        wsr = options.charts['warm-crops'][0]['label'];
                    }
@@ -1168,7 +1165,8 @@ function UI_PiechartGallery(options) {
 function UI_kiwichartGallery(options) {
     var widgetBox = $("<div></div>").addClass("widget-kiwi-gallery").addClass(options.class);
     setTimeout(function() {
-              var kiwiBox = $("<div></div>").addClass("kiwi-preview").text('Kiwi farm');
+              var kiwiBox = $("<div></div>").addClass("kiwi-preview");
+			  kiwiBox.append(options.charts[3]);
                 var klistItem = $("<ul id='knewList'></ul>");
                 klistItem.append("<li> Owner: "+ options.charts[0] + "</li>"+
                                 "<li> Area: "+ options.charts[1] + "</li>"+

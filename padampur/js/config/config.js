@@ -46,19 +46,19 @@ config = {
                 "fillOpacity": 1
             },
             "banana":{
-                fillColor: "url('#potatoes')",
+                fillColor: "url('#banana')",
                 fillOpacity: 1,
                 color: "#666666",
                 weight: 2
             },
-                "kiwi":{
-                fillColor: "url('#kiwi')",
+                "brinjal":{
+                fillColor: "url('#brinjal')",
                 fillOpacity: 1,
                 color: "#666666",
                 weight: 2
             },
-			    "cauliflower":{
-                fillColor: "url('#cauliflower')",
+			    "maize":{
+                fillColor: "url('#corn')",
                 fillOpacity: 1,
                 color: "#666666",
                 weight: 2

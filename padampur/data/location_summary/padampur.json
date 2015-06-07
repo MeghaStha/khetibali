@@ -9,17 +9,17 @@
                         }
 		},
 		{
-			"left": "<img src='padampur/data/pictures/location_summary/kiwifruit.jpg'/>",
+			"left": "<img src='padampur/data/pictures/location_summary/brinjal.jpg'/>",
 			"block": "12 ton/year",
                         "special-classes":{
-                            "left":"kiwi"
+                            "left":"brinjal"
                         }
 		},
 		{
-			"left": "<img src='padampur/data/pictures/location_summary/cauli.jpg'/>",
+			"left": "<img src='padampur/data/pictures/location_summary/corn.jpg'/>",
 			"block": "3600 ton/year",
                         "special-classes":{
-                            "left":"cauliflower"
+                            "left":"maize"
                         }
 		}
 	]

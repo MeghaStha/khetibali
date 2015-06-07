@@ -380,7 +380,7 @@ $(document).ready(function() {
                                         var marker =  L.marker(layer.getBounds().getCenter(),{ icon : L.divIcon({ className : 'circle',
                                          iconSize : [ 5, 5 ]}), riseOnHover : true}).addTo(map);
                                             marker.toGeoJSON();
-                                            marker.bindPopup('For more information about Kiwi "Zoom In" the map');
+                                            marker.bindPopup('For more information about fruit pockets "Zoom In" the map');
                                             marker.on ('mouseover', function(e){
                                             this.openPopup();
                                             });

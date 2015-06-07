@@ -38,20 +38,20 @@ config = {
                 "fillColor": "url('#orchard')",
                 "fillOpacity": 1
             },
-	         "potato":{
-                fillColor: "url('#potatoes')",
+	         "millet":{
+                fillColor: "url('#millet')",
                 fillOpacity: 1,
                 color: "#666666",
                 weight: 2
             },
-                "kiwi":{
-                fillColor: "url('#kiwi')",
+                "maize":{
+                fillColor: "url('#corn')",
                 fillOpacity: 1,
                 color: "#666666",
                 weight: 2
             },
-			    "cauliflower":{
-                fillColor: "url('#cauliflower')",
+			    "rice":{
+                fillColor: "url('#wheat')",
                 fillOpacity: 1,
                 color: "#666666",
                 weight: 2

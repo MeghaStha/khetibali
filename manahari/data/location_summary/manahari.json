@@ -2,24 +2,24 @@
 	"title": "<strong>Major Crops in Manahari</strong>",
 	"content":[
 		{
-			"left": "<img src='manahari/data/pictures/location_summary/potato.jpg'/>",
-			"block": "4500 ton/year",
+			"left": "<img src='manahari/data/pictures/location_summary/lentils.jpg'/>",
+		
                         "special-classes":{
-                            "left":"potato"
+                            "left":"millet"
                         }
 		},
 		{
-			"left": "<img src='manahari/data/pictures/location_summary/kiwifruit.jpg'/>",
-			"block": "12 ton/year",
+			"left": "<img src='manahari/data/pictures/location_summary/corn.jpg'/>",
+
                         "special-classes":{
-                            "left":"kiwi"
+                            "left":"maize"
                         }
 		},
 		{
-			"left": "<img src='manahari/data/pictures/location_summary/cauli.jpg'/>",
-			"block": "3600 ton/year",
+			"left": "<img src='manahari/data/pictures/location_summary/wheat.jpg'/>",
+
                         "special-classes":{
-                            "left":"cauliflower"
+                            "left":"rice"
                         }
 		}
 	]

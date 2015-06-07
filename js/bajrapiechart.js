@@ -1,4 +1,15 @@
 $(document).ready(function(){
+var myLabelFormatter = function (context) {
+    var label = context.label;
+
+    // if it's a single bird seen, add an exclamation mark to the outer label
+    if (context.section === 'outer') {
+        if (context.value === 1) {
+            label = label + '!';
+        }
+    }
+    return label;
+};
 var pie = new d3pie("export",{
 header:{
  title: {
@@ -10,12 +21,17 @@ header:{
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
+    labels: {
+        formatter: myLabelFormatter,
+        inner: {
+            format: "value"
+        }
+    },
  data :{
 		content: [
 		{label: "Oil Producing", value: 1928},
 		{label: "Vegetables", value: 26036},
-		{label: "Khadhyan", value: 13678},
-		{label: "Lentils", value: 74}
+		{label: "Khadhyan", value: 13678}
 		]
  
  }
@@ -32,6 +48,12 @@ header:{
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
+	    labels: {
+        formatter: myLabelFormatter,
+        inner: {
+            format: "value"
+        }
+    },
  data :{
 		content: [
 		{label: "Oil Producing", value: 48098},
@@ -54,6 +76,12 @@ header:{
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
+	    labels: {
+        formatter: myLabelFormatter,
+        inner: {
+            format: "value"
+        }
+    },
  data :{
 		content: [
 		{label: "Male", value: 4429},
@@ -74,6 +102,12 @@ header:{
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
+	    labels: {
+        formatter: myLabelFormatter,
+        inner: {
+            format: "value"
+        }
+    },
  data :{
 		content: [
 		{label: "Goat", value: 6752},
@@ -82,8 +116,7 @@ header:{
 		{label: "Buffalo", value: 780},
 		{label: "Duck", value: 182},
 		{label: "Pig", value: 56},
-		{label: "Horse", value: 6},
-		{label: "Yak", value: 3}
+		{label: "Horse", value: 6}
 		]
  
  }
@@ -100,13 +133,19 @@ header:{
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
+	    labels: {
+        formatter: myLabelFormatter,
+        inner: {
+            format: "value"
+        }
+    },
 data : {
  content: [
  {label: "Agriculture", value : 3239},
  {label : "Business", value: 185},
  {label: "Service", value: 146},
  {label: "Labour", value: 370},
- {label: "Industry/ Manufacture", value: 7}
+ {label: "Industry/Manufacture", value: 7}
  ]
 
 }
@@ -125,9 +164,13 @@ header:{
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
+	    labels: {
+        formatter: myLabelFormatter,
+
+    },
 data : {
  content: [
- {label: "Agriculture/Livestock", value : 319889673},
+ {label: "Agriculture", value : 319889673},
  {label : "Business/ Industry", value: 48113000},
  {label: "Service", value: 43613560},
  {label: "Foreign Employment", value: 24415000},
@@ -150,6 +193,12 @@ header:{
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
+	    labels: {
+        formatter: myLabelFormatter,
+        inner: {
+            format: "value"
+        }
+    },
 data : {
  content: [
  {label: "Agriculture/ Livestock", value : 149},
