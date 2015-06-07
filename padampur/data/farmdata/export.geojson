@@ -1,0 +1,3828 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2015-06-07T06:22:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/338252939",
+      "properties": {
+        "@id": "way/338252939",
+        "addr:street": "padampur",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "kera kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5187269,
+              27.6826334
+            ],
+            [
+              84.5186604,
+              27.6820568
+            ],
+            [
+              84.5187013,
+              27.6819734
+            ],
+            [
+              84.5186987,
+              27.6818762
+            ],
+            [
+              84.5193175,
+              27.6818136
+            ],
+            [
+              84.5193802,
+              27.6825805
+            ],
+            [
+              84.5187269,
+              27.6826334
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338252940",
+      "properties": {
+        "@id": "way/338252940",
+        "addr:street": "padampur",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "kera kheti",
+        "plant": "fruit",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5265632,
+              27.6813778
+            ],
+            [
+              84.5265478,
+              27.6807339
+            ],
+            [
+              84.5284017,
+              27.6804582
+            ],
+            [
+              84.5284672,
+              27.6806425
+            ],
+            [
+              84.5285364,
+              27.6810645
+            ],
+            [
+              84.5286136,
+              27.6811758
+            ],
+            [
+              84.527454,
+              27.6813453
+            ],
+            [
+              84.5269904,
+              27.6814112
+            ],
+            [
+              84.5269531,
+              27.6813137
+            ],
+            [
+              84.5265632,
+              27.6813778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338265129",
+      "properties": {
+        "@id": "way/338265129",
+        "crop": "banana",
+        "landuse": "orchard",
+        "operator": "naran bhattrai",
+        "plant": "trees",
+        "plant:number": "1800",
+        "production_amount": "1750 ghari/per year",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5006349,
+              27.684683
+            ],
+            [
+              84.5005506,
+              27.683967
+            ],
+            [
+              84.5008986,
+              27.6839349
+            ],
+            [
+              84.5009827,
+              27.6846493
+            ],
+            [
+              84.5006349,
+              27.684683
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338265130",
+      "properties": {
+        "@id": "way/338265130",
+        "crop": "banana",
+        "landuse": "orchard",
+        "operator": "Naran bhattrai",
+        "plant": "trees",
+        "plant:number": "1450",
+        "production_amount": "1400 ghari/per year",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5012905,
+              27.6846209
+            ],
+            [
+              84.5012065,
+              27.6839065
+            ],
+            [
+              84.5015961,
+              27.6838622
+            ],
+            [
+              84.5015777,
+              27.6845975
+            ],
+            [
+              84.5012905,
+              27.6846209
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338265131",
+      "properties": {
+        "@id": "way/338265131",
+        "contact:phone": "9855052173",
+        "crop": "banana",
+        "landuse": "orchard",
+        "operator": "Dipak bhattrai",
+        "plant": "trees",
+        "plant:number": "1300",
+        "production_amount": "1300 ghari/per year",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5009827,
+              27.6846493
+            ],
+            [
+              84.5008986,
+              27.6839349
+            ],
+            [
+              84.5012065,
+              27.6839065
+            ],
+            [
+              84.5012905,
+              27.6846209
+            ],
+            [
+              84.5009827,
+              27.6846493
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338276035",
+      "properties": {
+        "@id": "way/338276035",
+        "addr:street": "padaMPUR",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "BANANA",
+        "plant": "FRUIT",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4929077,
+              27.6947732
+            ],
+            [
+              84.4921005,
+              27.6948271
+            ],
+            [
+              84.4920099,
+              27.6937648
+            ],
+            [
+              84.4927523,
+              27.6937152
+            ],
+            [
+              84.4929077,
+              27.6947732
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338428262",
+      "properties": {
+        "@id": "way/338428262",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4857826,
+              27.6897617
+            ],
+            [
+              84.4857177,
+              27.6893006
+            ],
+            [
+              84.4856628,
+              27.6889104
+            ],
+            [
+              84.4859766,
+              27.6888758
+            ],
+            [
+              84.4860906,
+              27.6888632
+            ],
+            [
+              84.4860979,
+              27.6889149
+            ],
+            [
+              84.4861699,
+              27.6894264
+            ],
+            [
+              84.4862105,
+              27.6897145
+            ],
+            [
+              84.4857826,
+              27.6897617
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338429794",
+      "properties": {
+        "@id": "way/338429794",
+        "crop": "banana",
+        "landuse": "orchard",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4994542,
+              27.6878198
+            ],
+            [
+              84.4993918,
+              27.6873974
+            ],
+            [
+              84.5000654,
+              27.6873323
+            ],
+            [
+              84.5001311,
+              27.6877717
+            ],
+            [
+              84.4994542,
+              27.6878198
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338431727",
+      "properties": {
+        "@id": "way/338431727",
+        "crop": "banana",
+        "landuse": "orchard",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4870474,
+              27.6896251
+            ],
+            [
+              84.4870237,
+              27.689438
+            ],
+            [
+              84.4870118,
+              27.6893332
+            ],
+            [
+              84.4869361,
+              27.688788
+            ],
+            [
+              84.4869358,
+              27.6887675
+            ],
+            [
+              84.4875116,
+              27.6887183
+            ],
+            [
+              84.4876263,
+              27.6895705
+            ],
+            [
+              84.4870474,
+              27.6896251
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338432788",
+      "properties": {
+        "@id": "way/338432788",
+        "crop": "banana",
+        "landuse": "orchard",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4951944,
+              27.6929798
+            ],
+            [
+              84.4950818,
+              27.6920588
+            ],
+            [
+              84.4954595,
+              27.6920213
+            ],
+            [
+              84.4955729,
+              27.6929411
+            ],
+            [
+              84.4951944,
+              27.6929798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338434973",
+      "properties": {
+        "@id": "way/338434973",
+        "addr:street": "padampur",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4908574,
+              27.6886155
+            ],
+            [
+              84.4907156,
+              27.6875971
+            ],
+            [
+              84.4909851,
+              27.6875722
+            ],
+            [
+              84.4915302,
+              27.6875181
+            ],
+            [
+              84.4916371,
+              27.6885327
+            ],
+            [
+              84.4909792,
+              27.6886026
+            ],
+            [
+              84.4908574,
+              27.6886155
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338434974",
+      "properties": {
+        "@id": "way/338434974",
+        "addr:street": "padampur",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4908992,
+              27.6866236
+            ],
+            [
+              84.4916222,
+              27.6865617
+            ],
+            [
+              84.4916848,
+              27.6869872
+            ],
+            [
+              84.4924464,
+              27.6869433
+            ],
+            [
+              84.4924975,
+              27.6874302
+            ],
+            [
+              84.4915302,
+              27.6875181
+            ],
+            [
+              84.4909851,
+              27.6875722
+            ],
+            [
+              84.4908992,
+              27.6866236
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338435095",
+      "properties": {
+        "@id": "way/338435095",
+        "crop": "banana",
+        "landuse": "orchard",
+        "operator": "ghanshyam giri",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4904948,
+              27.6915341
+            ],
+            [
+              84.4904472,
+              27.6911176
+            ],
+            [
+              84.4908908,
+              27.6910701
+            ],
+            [
+              84.4909411,
+              27.691492
+            ],
+            [
+              84.4908136,
+              27.691504
+            ],
+            [
+              84.4904948,
+              27.6915341
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338435732",
+      "properties": {
+        "@id": "way/338435732",
+        "crop": "banana",
+        "landuse": "orchard",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4933095,
+              27.6934988
+            ],
+            [
+              84.4932682,
+              27.6931588
+            ],
+            [
+              84.4936418,
+              27.6931219
+            ],
+            [
+              84.4936754,
+              27.6934672
+            ],
+            [
+              84.4933095,
+              27.6934988
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338440596",
+      "properties": {
+        "@id": "way/338440596",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "Banana Farm",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4861308,
+              27.6956164
+            ],
+            [
+              84.4859314,
+              27.6941942
+            ],
+            [
+              84.4864963,
+              27.694143
+            ],
+            [
+              84.4866865,
+              27.695629
+            ],
+            [
+              84.4861308,
+              27.6956164
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338440597",
+      "properties": {
+        "@id": "way/338440597",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "Banana",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5101141,
+              27.6976645
+            ],
+            [
+              84.5100301,
+              27.6967426
+            ],
+            [
+              84.5104299,
+              27.6967196
+            ],
+            [
+              84.5105128,
+              27.6976468
+            ],
+            [
+              84.5101141,
+              27.6976645
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338440598",
+      "properties": {
+        "@id": "way/338440598",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "Banana",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5101053,
+              27.6967179
+            ],
+            [
+              84.5099962,
+              27.6957955
+            ],
+            [
+              84.510609,
+              27.6957504
+            ],
+            [
+              84.5108693,
+              27.6957313
+            ],
+            [
+              84.5109604,
+              27.6966406
+            ],
+            [
+              84.5105706,
+              27.6966594
+            ],
+            [
+              84.5102804,
+              27.6967148
+            ],
+            [
+              84.5101053,
+              27.6967179
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338445816",
+      "properties": {
+        "@id": "way/338445816",
+        "addr:street": "padampur 8",
+        "area": "5 gattha",
+        "contact:phone": "9845087288",
+        "crop": "banana",
+        "landuse": "orchard",
+        "operator": "Goma Giri",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5287503,
+              27.6867791
+            ],
+            [
+              84.5287145,
+              27.6866325
+            ],
+            [
+              84.5294396,
+              27.6864264
+            ],
+            [
+              84.5295157,
+              27.6865413
+            ],
+            [
+              84.5287503,
+              27.6867791
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338446581",
+      "properties": {
+        "@id": "way/338446581",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5256156,
+              27.6809117
+            ],
+            [
+              84.5261575,
+              27.6808133
+            ],
+            [
+              84.5262491,
+              27.6814049
+            ],
+            [
+              84.5257226,
+              27.6814749
+            ],
+            [
+              84.5256156,
+              27.6809117
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338446582",
+      "properties": {
+        "@id": "way/338446582",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5266979,
+              27.6859488
+            ],
+            [
+              84.5266061,
+              27.6855592
+            ],
+            [
+              84.5269353,
+              27.6855144
+            ],
+            [
+              84.5269954,
+              27.685733
+            ],
+            [
+              84.5268878,
+              27.6857779
+            ],
+            [
+              84.5269068,
+              27.6859152
+            ],
+            [
+              84.5266979,
+              27.6859488
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338446583",
+      "properties": {
+        "@id": "way/338446583",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5265249,
+              27.6829351
+            ],
+            [
+              84.5263909,
+              27.682282
+            ],
+            [
+              84.5266516,
+              27.6822932
+            ],
+            [
+              84.5266941,
+              27.6822733
+            ],
+            [
+              84.5266742,
+              27.6820411
+            ],
+            [
+              84.5272733,
+              27.6819536
+            ],
+            [
+              84.5274562,
+              27.6826173
+            ],
+            [
+              84.5272145,
+              27.6827048
+            ],
+            [
+              84.5265249,
+              27.6829351
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338446958",
+      "properties": {
+        "@id": "way/338446958",
+        "addr:street": "padampur",
+        "crop": "banana",
+        "landuse": "orchard",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5222558,
+              27.6946511
+            ],
+            [
+              84.5220567,
+              27.6929505
+            ],
+            [
+              84.5223473,
+              27.6929221
+            ],
+            [
+              84.5223656,
+              27.6930932
+            ],
+            [
+              84.5225293,
+              27.6930796
+            ],
+            [
+              84.5225105,
+              27.6929062
+            ],
+            [
+              84.5228391,
+              27.692874
+            ],
+            [
+              84.5229367,
+              27.6937396
+            ],
+            [
+              84.5241349,
+              27.6936421
+            ],
+            [
+              84.5242221,
+              27.6944712
+            ],
+            [
+              84.5232156,
+              27.6945675
+            ],
+            [
+              84.5222558,
+              27.6946511
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338448474",
+      "properties": {
+        "@id": "way/338448474",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5301676,
+              27.6882883
+            ],
+            [
+              84.530064,
+              27.6877755
+            ],
+            [
+              84.5303911,
+              27.687685
+            ],
+            [
+              84.5303266,
+              27.6874244
+            ],
+            [
+              84.530657,
+              27.6873287
+            ],
+            [
+              84.530847,
+              27.6880998
+            ],
+            [
+              84.5301676,
+              27.6882883
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338448475",
+      "properties": {
+        "@id": "way/338448475",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5287209,
+              27.6857567
+            ],
+            [
+              84.5286272,
+              27.6853246
+            ],
+            [
+              84.5290958,
+              27.6852148
+            ],
+            [
+              84.5291472,
+              27.6852295
+            ],
+            [
+              84.5292709,
+              27.6856057
+            ],
+            [
+              84.5287209,
+              27.6857567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338566241",
+      "properties": {
+        "@id": "way/338566241",
+        "crop": "banana",
+        "landuse": "orchard",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4841477,
+              27.6890402
+            ],
+            [
+              84.4840307,
+              27.688181
+            ],
+            [
+              84.4849989,
+              27.6881034
+            ],
+            [
+              84.485057,
+              27.6889593
+            ],
+            [
+              84.484743,
+              27.6889866
+            ],
+            [
+              84.4841477,
+              27.6890402
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338567106",
+      "properties": {
+        "@id": "way/338567106",
+        "addr:street": "padampur 3 road no 2",
+        "area": "10 kathha",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "operator": "manju chautariya",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5300495,
+              27.6788288
+            ],
+            [
+              84.5299696,
+              27.6783941
+            ],
+            [
+              84.5306509,
+              27.6781335
+            ],
+            [
+              84.530797,
+              27.6785356
+            ],
+            [
+              84.5300495,
+              27.6788288
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338573864",
+      "properties": {
+        "@id": "way/338573864",
+        "addr:street": "padampur 5",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana",
+        "operator": "vak vaeki newar",
+        "plant": "trees",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4917696,
+              27.6817865
+            ],
+            [
+              84.4917279,
+              27.6814894
+            ],
+            [
+              84.4919076,
+              27.6814543
+            ],
+            [
+              84.4919972,
+              27.6814033
+            ],
+            [
+              84.4925572,
+              27.6813155
+            ],
+            [
+              84.4925604,
+              27.6813608
+            ],
+            [
+              84.4926884,
+              27.6813523
+            ],
+            [
+              84.4927524,
+              27.6812531
+            ],
+            [
+              84.4928122,
+              27.6816833
+            ],
+            [
+              84.4923012,
+              27.6817235
+            ],
+            [
+              84.4917696,
+              27.6817865
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338573865",
+      "properties": {
+        "@id": "way/338573865",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana",
+        "plant": "trees",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.502962,
+              27.6820529
+            ],
+            [
+              84.503679,
+              27.6819709
+            ],
+            [
+              84.5036632,
+              27.6823055
+            ],
+            [
+              84.5038406,
+              27.6823001
+            ],
+            [
+              84.5040032,
+              27.6822937
+            ],
+            [
+              84.5040004,
+              27.6826776
+            ],
+            [
+              84.5038788,
+              27.6826826
+            ],
+            [
+              84.5038692,
+              27.6828639
+            ],
+            [
+              84.5036748,
+              27.6828406
+            ],
+            [
+              84.503646,
+              27.6828909
+            ],
+            [
+              84.5035876,
+              27.6829752
+            ],
+            [
+              84.5035919,
+              27.6831659
+            ],
+            [
+              84.5035066,
+              27.6831706
+            ],
+            [
+              84.5034676,
+              27.6823546
+            ],
+            [
+              84.5032812,
+              27.6823461
+            ],
+            [
+              84.5026746,
+              27.6823867
+            ],
+            [
+              84.5026995,
+              27.6820434
+            ],
+            [
+              84.502962,
+              27.6820529
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338573866",
+      "properties": {
+        "@id": "way/338573866",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana",
+        "plant": "trees",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5047781,
+              27.6888383
+            ],
+            [
+              84.5047192,
+              27.6883749
+            ],
+            [
+              84.5050897,
+              27.6883517
+            ],
+            [
+              84.5051497,
+              27.6888195
+            ],
+            [
+              84.5047781,
+              27.6888383
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338573867",
+      "properties": {
+        "@id": "way/338573867",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana",
+        "plant": "trees",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5024969,
+              27.6838486
+            ],
+            [
+              84.5025354,
+              27.6835638
+            ],
+            [
+              84.5029116,
+              27.6835535
+            ],
+            [
+              84.5028901,
+              27.6838333
+            ],
+            [
+              84.5024969,
+              27.6838486
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338573868",
+      "properties": {
+        "@id": "way/338573868",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana",
+        "plant": "trees",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5030507,
+              27.6838159
+            ],
+            [
+              84.5030834,
+              27.6833345
+            ],
+            [
+              84.5030942,
+              27.6831866
+            ],
+            [
+              84.5032627,
+              27.6831783
+            ],
+            [
+              84.5032283,
+              27.6838209
+            ],
+            [
+              84.5030507,
+              27.6838159
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338573869",
+      "properties": {
+        "@id": "way/338573869",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana",
+        "plant": "trees",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5086077,
+              27.6840817
+            ],
+            [
+              84.5085806,
+              27.683726
+            ],
+            [
+              84.5084442,
+              27.6837288
+            ],
+            [
+              84.5083978,
+              27.6834563
+            ],
+            [
+              84.5083684,
+              27.6832409
+            ],
+            [
+              84.5093356,
+              27.6831452
+            ],
+            [
+              84.5093915,
+              27.6836841
+            ],
+            [
+              84.5092975,
+              27.6839687
+            ],
+            [
+              84.5093041,
+              27.6840478
+            ],
+            [
+              84.5086077,
+              27.6840817
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338575502",
+      "properties": {
+        "@id": "way/338575502",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "Banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.496961,
+              27.6837265
+            ],
+            [
+              84.4968589,
+              27.6828169
+            ],
+            [
+              84.4978489,
+              27.682728
+            ],
+            [
+              84.4977495,
+              27.6819615
+            ],
+            [
+              84.4983788,
+              27.6819075
+            ],
+            [
+              84.4983776,
+              27.6817639
+            ],
+            [
+              84.4986066,
+              27.6817305
+            ],
+            [
+              84.4988623,
+              27.6835548
+            ],
+            [
+              84.496961,
+              27.6837265
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338575505",
+      "properties": {
+        "@id": "way/338575505",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4956771,
+              27.6842924
+            ],
+            [
+              84.498213,
+              27.6840935
+            ],
+            [
+              84.4982689,
+              27.6848983
+            ],
+            [
+              84.4958132,
+              27.685128
+            ],
+            [
+              84.4957442,
+              27.6848058
+            ],
+            [
+              84.4956771,
+              27.6842924
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338576702",
+      "properties": {
+        "@id": "way/338576702",
+        "addr:street": "padampur",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4898068,
+              27.6856648
+            ],
+            [
+              84.4902938,
+              27.6856233
+            ],
+            [
+              84.4903562,
+              27.6861806
+            ],
+            [
+              84.4908443,
+              27.6861247
+            ],
+            [
+              84.4908992,
+              27.6866236
+            ],
+            [
+              84.4909851,
+              27.6875722
+            ],
+            [
+              84.4907156,
+              27.6875971
+            ],
+            [
+              84.4901851,
+              27.6876441
+            ],
+            [
+              84.4900858,
+              27.6866832
+            ],
+            [
+              84.4895158,
+              27.6867318
+            ],
+            [
+              84.4894587,
+              27.6862594
+            ],
+            [
+              84.4898743,
+              27.686217
+            ],
+            [
+              84.4898068,
+              27.6856648
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338577628",
+      "properties": {
+        "@id": "way/338577628",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "Banana Farm",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4878892,
+              27.6956635
+            ],
+            [
+              84.487814,
+              27.6951583
+            ],
+            [
+              84.4883601,
+              27.6951404
+            ],
+            [
+              84.4884399,
+              27.695677
+            ],
+            [
+              84.4878892,
+              27.6956635
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338577629",
+      "properties": {
+        "@id": "way/338577629",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "Banana Farm",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4850129,
+              27.6955875
+            ],
+            [
+              84.4848852,
+              27.6946875
+            ],
+            [
+              84.4854377,
+              27.6946804
+            ],
+            [
+              84.48555,
+              27.6956044
+            ],
+            [
+              84.4850129,
+              27.6955875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338577700",
+      "properties": {
+        "@id": "way/338577700",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "Banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.505907,
+              27.6812823
+            ],
+            [
+              84.5058994,
+              27.6808483
+            ],
+            [
+              84.506548,
+              27.6807845
+            ],
+            [
+              84.5065892,
+              27.6812224
+            ],
+            [
+              84.505907,
+              27.6812823
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338577701",
+      "properties": {
+        "@id": "way/338577701",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "Banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5004524,
+              27.682293
+            ],
+            [
+              84.5003049,
+              27.6812695
+            ],
+            [
+              84.5015116,
+              27.6811592
+            ],
+            [
+              84.5015465,
+              27.6814292
+            ],
+            [
+              84.5016368,
+              27.6821815
+            ],
+            [
+              84.5004524,
+              27.682293
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338577702",
+      "properties": {
+        "@id": "way/338577702",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5076524,
+              27.6957787
+            ],
+            [
+              84.5075801,
+              27.6951472
+            ],
+            [
+              84.5076792,
+              27.6951352
+            ],
+            [
+              84.5075826,
+              27.6942382
+            ],
+            [
+              84.5076995,
+              27.6942286
+            ],
+            [
+              84.5082675,
+              27.6941956
+            ],
+            [
+              84.5082972,
+              27.6944039
+            ],
+            [
+              84.508577,
+              27.6944787
+            ],
+            [
+              84.5086518,
+              27.6950278
+            ],
+            [
+              84.508,
+              27.6950787
+            ],
+            [
+              84.5080341,
+              27.6954017
+            ],
+            [
+              84.5087002,
+              27.6953832
+            ],
+            [
+              84.5087679,
+              27.6958804
+            ],
+            [
+              84.5081972,
+              27.6959278
+            ],
+            [
+              84.5080653,
+              27.695938
+            ],
+            [
+              84.5080484,
+              27.6957552
+            ],
+            [
+              84.5076524,
+              27.6957787
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338577703",
+      "properties": {
+        "@id": "way/338577703",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5040621,
+              27.6889127
+            ],
+            [
+              84.5040043,
+              27.6884309
+            ],
+            [
+              84.504086,
+              27.6884263
+            ],
+            [
+              84.5040967,
+              27.6885637
+            ],
+            [
+              84.5042755,
+              27.6885568
+            ],
+            [
+              84.5043201,
+              27.6888817
+            ],
+            [
+              84.5040621,
+              27.6889127
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338577704",
+      "properties": {
+        "@id": "way/338577704",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5056221,
+              27.6920899
+            ],
+            [
+              84.5055608,
+              27.6916605
+            ],
+            [
+              84.5058432,
+              27.6916503
+            ],
+            [
+              84.5059087,
+              27.692073
+            ],
+            [
+              84.5056221,
+              27.6920899
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338577705",
+      "properties": {
+        "@id": "way/338577705",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.503977,
+              27.6882549
+            ],
+            [
+              84.5039495,
+              27.687943
+            ],
+            [
+              84.5041272,
+              27.6879307
+            ],
+            [
+              84.5041546,
+              27.6882426
+            ],
+            [
+              84.503977,
+              27.6882549
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338577706",
+      "properties": {
+        "@id": "way/338577706",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5082962,
+              27.6968938
+            ],
+            [
+              84.5081972,
+              27.6959278
+            ],
+            [
+              84.5087679,
+              27.6958804
+            ],
+            [
+              84.5088454,
+              27.6966298
+            ],
+            [
+              84.5088908,
+              27.6968667
+            ],
+            [
+              84.5082962,
+              27.6968938
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338577707",
+      "properties": {
+        "@id": "way/338577707",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5055399,
+              27.6961024
+            ],
+            [
+              84.5054386,
+              27.695241
+            ],
+            [
+              84.5055306,
+              27.6952325
+            ],
+            [
+              84.5056299,
+              27.6960962
+            ],
+            [
+              84.5055399,
+              27.6961024
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338577708",
+      "properties": {
+        "@id": "way/338577708",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.50484,
+              27.6961524
+            ],
+            [
+              84.5047219,
+              27.6953025
+            ],
+            [
+              84.5049384,
+              27.6952828
+            ],
+            [
+              84.5050673,
+              27.6961351
+            ],
+            [
+              84.5049993,
+              27.6961403
+            ],
+            [
+              84.50484,
+              27.6961524
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338577709",
+      "properties": {
+        "@id": "way/338577709",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5033164,
+              27.6879928
+            ],
+            [
+              84.5037941,
+              27.687959
+            ],
+            [
+              84.5038323,
+              27.6882691
+            ],
+            [
+              84.5035473,
+              27.6882988
+            ],
+            [
+              84.5035532,
+              27.6884567
+            ],
+            [
+              84.5033693,
+              27.6884737
+            ],
+            [
+              84.5033164,
+              27.6879928
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338582744",
+      "properties": {
+        "@id": "way/338582744",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4967752,
+              27.6890838
+            ],
+            [
+              84.4967403,
+              27.6887768
+            ],
+            [
+              84.4970361,
+              27.688761
+            ],
+            [
+              84.4970509,
+              27.6890592
+            ],
+            [
+              84.4967752,
+              27.6890838
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338582745",
+      "properties": {
+        "@id": "way/338582745",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4977662,
+              27.6879575
+            ],
+            [
+              84.4976371,
+              27.6869819
+            ],
+            [
+              84.4979865,
+              27.6869444
+            ],
+            [
+              84.4984007,
+              27.6869075
+            ],
+            [
+              84.4983486,
+              27.68746
+            ],
+            [
+              84.4981275,
+              27.6879413
+            ],
+            [
+              84.4977662,
+              27.6879575
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338582746",
+      "properties": {
+        "@id": "way/338582746",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4966915,
+              27.6885528
+            ],
+            [
+              84.4962404,
+              27.6886122
+            ],
+            [
+              84.4960302,
+              27.6871158
+            ],
+            [
+              84.4971075,
+              27.6870236
+            ],
+            [
+              84.4972786,
+              27.6870073
+            ],
+            [
+              84.4973912,
+              27.6878644
+            ],
+            [
+              84.4966046,
+              27.6879535
+            ],
+            [
+              84.4966915,
+              27.6885528
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338582747",
+      "properties": {
+        "@id": "way/338582747",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4971075,
+              27.6870236
+            ],
+            [
+              84.4970032,
+              27.6862013
+            ],
+            [
+              84.4974598,
+              27.6861919
+            ],
+            [
+              84.4979606,
+              27.6866515
+            ],
+            [
+              84.4979865,
+              27.6869444
+            ],
+            [
+              84.4978168,
+              27.6868186
+            ],
+            [
+              84.4976122,
+              27.6868333
+            ],
+            [
+              84.4976371,
+              27.6869819
+            ],
+            [
+              84.4972786,
+              27.6870073
+            ],
+            [
+              84.4971075,
+              27.6870236
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338584076",
+      "properties": {
+        "@id": "way/338584076",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5050055,
+              27.6912349
+            ],
+            [
+              84.5049675,
+              27.690763
+            ],
+            [
+              84.5054534,
+              27.6907402
+            ],
+            [
+              84.505487,
+              27.6910069
+            ],
+            [
+              84.5051607,
+              27.6910384
+            ],
+            [
+              84.50518,
+              27.6912218
+            ],
+            [
+              84.5050055,
+              27.6912349
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338586851",
+      "properties": {
+        "@id": "way/338586851",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4864755,
+              27.6849648
+            ],
+            [
+              84.486863,
+              27.6849484
+            ],
+            [
+              84.486903,
+              27.6851372
+            ],
+            [
+              84.4875796,
+              27.6850845
+            ],
+            [
+              84.487526,
+              27.6845873
+            ],
+            [
+              84.4885368,
+              27.6844777
+            ],
+            [
+              84.4886006,
+              27.6849856
+            ],
+            [
+              84.4892996,
+              27.684919
+            ],
+            [
+              84.4893931,
+              27.6856904
+            ],
+            [
+              84.487101,
+              27.6859084
+            ],
+            [
+              84.4868184,
+              27.685934
+            ],
+            [
+              84.4867989,
+              27.6857366
+            ],
+            [
+              84.4865873,
+              27.6857505
+            ],
+            [
+              84.4865781,
+              27.6856953
+            ],
+            [
+              84.4864832,
+              27.685124
+            ],
+            [
+              84.4864755,
+              27.6849648
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338586852",
+      "properties": {
+        "@id": "way/338586852",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.487101,
+              27.6859084
+            ],
+            [
+              84.4893931,
+              27.6856904
+            ],
+            [
+              84.4894026,
+              27.6859105
+            ],
+            [
+              84.4891663,
+              27.685932
+            ],
+            [
+              84.4891341,
+              27.6859943
+            ],
+            [
+              84.4891372,
+              27.6860648
+            ],
+            [
+              84.4890974,
+              27.6861055
+            ],
+            [
+              84.4890928,
+              27.6861611
+            ],
+            [
+              84.4891311,
+              27.6861909
+            ],
+            [
+              84.4891846,
+              27.6862031
+            ],
+            [
+              84.4892734,
+              27.6862058
+            ],
+            [
+              84.4894504,
+              27.6861904
+            ],
+            [
+              84.4894587,
+              27.6862594
+            ],
+            [
+              84.4895158,
+              27.6867318
+            ],
+            [
+              84.4895787,
+              27.6872153
+            ],
+            [
+              84.4887613,
+              27.6872727
+            ],
+            [
+              84.4887766,
+              27.6874408
+            ],
+            [
+              84.4873375,
+              27.6875736
+            ],
+            [
+              84.487101,
+              27.6859084
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338586854",
+      "properties": {
+        "@id": "way/338586854",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana",
+        "plant": "trees"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4891228,
+              27.6834329
+            ],
+            [
+              84.4891823,
+              27.683924
+            ],
+            [
+              84.4892262,
+              27.6842039
+            ],
+            [
+              84.4892373,
+              27.6844057
+            ],
+            [
+              84.4887144,
+              27.6844594
+            ],
+            [
+              84.4886809,
+              27.68395
+            ],
+            [
+              84.4874255,
+              27.6840406
+            ],
+            [
+              84.4873646,
+              27.6837772
+            ],
+            [
+              84.4876173,
+              27.6837557
+            ],
+            [
+              84.4876046,
+              27.6835692
+            ],
+            [
+              84.4882431,
+              27.6835022
+            ],
+            [
+              84.4891228,
+              27.6834329
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338586919",
+      "properties": {
+        "@id": "way/338586919",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "operator": "yesram",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5024082,
+              27.6935108
+            ],
+            [
+              84.5019097,
+              27.6935601
+            ],
+            [
+              84.5017767,
+              27.6923974
+            ],
+            [
+              84.5021196,
+              27.6923555
+            ],
+            [
+              84.5022846,
+              27.6923389
+            ],
+            [
+              84.5024082,
+              27.6935108
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338586920",
+      "properties": {
+        "@id": "way/338586920",
+        "addr:street": "padampur",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "operator": "yesram",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5029373,
+              27.6932745
+            ],
+            [
+              84.5028723,
+              27.6924266
+            ],
+            [
+              84.5029385,
+              27.6924244
+            ],
+            [
+              84.5029794,
+              27.6923645
+            ],
+            [
+              84.5029779,
+              27.6922931
+            ],
+            [
+              84.5030025,
+              27.6922915
+            ],
+            [
+              84.5032839,
+              27.6922683
+            ],
+            [
+              84.5035076,
+              27.6922451
+            ],
+            [
+              84.5036333,
+              27.6932175
+            ],
+            [
+              84.5029373,
+              27.6932745
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338586921",
+      "properties": {
+        "@id": "way/338586921",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5024723,
+              27.6914173
+            ],
+            [
+              84.5023741,
+              27.6909456
+            ],
+            [
+              84.5029724,
+              27.6908912
+            ],
+            [
+              84.5030468,
+              27.6913408
+            ],
+            [
+              84.5029204,
+              27.6913566
+            ],
+            [
+              84.5024723,
+              27.6914173
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338586922",
+      "properties": {
+        "@id": "way/338586922",
+        "addr:street": "padampur",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "operator": "ramlal chaudhary",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5008054,
+              27.6923117
+            ],
+            [
+              84.5007521,
+              27.6923193
+            ],
+            [
+              84.500765,
+              27.6921848
+            ],
+            [
+              84.5010723,
+              27.6921561
+            ],
+            [
+              84.501069,
+              27.6923108
+            ],
+            [
+              84.5008945,
+              27.6923144
+            ],
+            [
+              84.5008054,
+              27.6923117
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338586924",
+      "properties": {
+        "@id": "way/338586924",
+        "addr:street": "padampur",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "operator": "sarla chaudhary",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5017767,
+              27.6923974
+            ],
+            [
+              84.5016627,
+              27.6914725
+            ],
+            [
+              84.5021348,
+              27.6914324
+            ],
+            [
+              84.5022221,
+              27.6921711
+            ],
+            [
+              84.5021055,
+              27.6921878
+            ],
+            [
+              84.5021196,
+              27.6923555
+            ],
+            [
+              84.5017767,
+              27.6923974
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338586926",
+      "properties": {
+        "@id": "way/338586926",
+        "addr:street": "padampur",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "operator": "yesram",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5022846,
+              27.6923389
+            ],
+            [
+              84.5026344,
+              27.692314
+            ],
+            [
+              84.5027812,
+              27.6923054
+            ],
+            [
+              84.5028135,
+              27.6923043
+            ],
+            [
+              84.50282,
+              27.6924276
+            ],
+            [
+              84.5028723,
+              27.6924266
+            ],
+            [
+              84.5029373,
+              27.6932745
+            ],
+            [
+              84.5029496,
+              27.6934658
+            ],
+            [
+              84.5024082,
+              27.6935108
+            ],
+            [
+              84.5022846,
+              27.6923389
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338586927",
+      "properties": {
+        "@id": "way/338586927",
+        "addr:street": "padampur",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "operator": "babulal chaudhary",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5034858,
+              27.6920999
+            ],
+            [
+              84.5032829,
+              27.6921095
+            ],
+            [
+              84.5032839,
+              27.6922683
+            ],
+            [
+              84.5030025,
+              27.6922915
+            ],
+            [
+              84.5029936,
+              27.6921415
+            ],
+            [
+              84.5029753,
+              27.6918465
+            ],
+            [
+              84.5034639,
+              27.6918169
+            ],
+            [
+              84.503475,
+              27.6919597
+            ],
+            [
+              84.5034858,
+              27.6920999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338586929",
+      "properties": {
+        "@id": "way/338586929",
+        "addr:street": "padampur",
+        "contact:phone": "9845109121",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "operator": "santu chaudhary",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5027662,
+              27.6921473
+            ],
+            [
+              84.5027812,
+              27.6923054
+            ],
+            [
+              84.5026344,
+              27.692314
+            ],
+            [
+              84.5024723,
+              27.6914173
+            ],
+            [
+              84.5029204,
+              27.6913566
+            ],
+            [
+              84.5029753,
+              27.6918465
+            ],
+            [
+              84.5029936,
+              27.6921415
+            ],
+            [
+              84.5027662,
+              27.6921473
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338595005",
+      "properties": {
+        "@id": "way/338595005",
+        "addr:street": "padampur",
+        "contact:phone": "9845810122",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "kera kheti",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4907005,
+              27.6917362
+            ],
+            [
+              84.4908387,
+              27.691732
+            ],
+            [
+              84.4908136,
+              27.691504
+            ],
+            [
+              84.4909411,
+              27.691492
+            ],
+            [
+              84.4909786,
+              27.6914892
+            ],
+            [
+              84.4910043,
+              27.6916489
+            ],
+            [
+              84.4911705,
+              27.6916463
+            ],
+            [
+              84.4911735,
+              27.6916707
+            ],
+            [
+              84.4912504,
+              27.6916677
+            ],
+            [
+              84.4912272,
+              27.6914662
+            ],
+            [
+              84.4916316,
+              27.6914286
+            ],
+            [
+              84.4917022,
+              27.6919328
+            ],
+            [
+              84.4909184,
+              27.6920033
+            ],
+            [
+              84.4907408,
+              27.6920196
+            ],
+            [
+              84.4907005,
+              27.6917362
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338596025",
+      "properties": {
+        "@id": "way/338596025",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4971635,
+              27.6954263
+            ],
+            [
+              84.4971425,
+              27.6953093
+            ],
+            [
+              84.4977765,
+              27.6952636
+            ],
+            [
+              84.4977862,
+              27.6953984
+            ],
+            [
+              84.4971635,
+              27.6954263
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338596027",
+      "properties": {
+        "@id": "way/338596027",
+        "addr:street": "padampur",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "operator": "ravi chaudhary",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5005114,
+              27.6906308
+            ],
+            [
+              84.5010968,
+              27.6905771
+            ],
+            [
+              84.501172,
+              27.6914995
+            ],
+            [
+              84.500619,
+              27.6915465
+            ],
+            [
+              84.5005346,
+              27.6908199
+            ],
+            [
+              84.5005114,
+              27.6906308
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338725635",
+      "properties": {
+        "@id": "way/338725635",
+        "crop": "banana",
+        "landuse": "orchard",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.4885467,
+              27.6900476
+            ],
+            [
+              84.4885728,
+              27.6902736
+            ],
+            [
+              84.4886728,
+              27.6910666
+            ],
+            [
+              84.4884215,
+              27.6910745
+            ],
+            [
+              84.4883508,
+              27.6905857
+            ],
+            [
+              84.4882672,
+              27.6900654
+            ],
+            [
+              84.4885467,
+              27.6900476
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338733242",
+      "properties": {
+        "@id": "way/338733242",
+        "area": "11 kathaa",
+        "contact:phone": "9845066450",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "Banana",
+        "operator": "Tika Rijal",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5284619,
+              27.6881717
+            ],
+            [
+              84.5285208,
+              27.6886162
+            ],
+            [
+              84.5281837,
+              27.6888448
+            ],
+            [
+              84.5280118,
+              27.6886579
+            ],
+            [
+              84.5277941,
+              27.6886801
+            ],
+            [
+              84.5277342,
+              27.6883777
+            ],
+            [
+              84.5284619,
+              27.6881717
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338733243",
+      "properties": {
+        "@id": "way/338733243",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "Rupnayayan",
+        "plant": "trees"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5278762,
+              27.6878736
+            ],
+            [
+              84.5276475,
+              27.6879395
+            ],
+            [
+              84.5274273,
+              27.6869469
+            ],
+            [
+              84.5286797,
+              27.6866013
+            ],
+            [
+              84.5287849,
+              27.6870056
+            ],
+            [
+              84.5288811,
+              27.6875069
+            ],
+            [
+              84.5289169,
+              27.6874951
+            ],
+            [
+              84.5296259,
+              27.6873033
+            ],
+            [
+              84.5296746,
+              27.6874587
+            ],
+            [
+              84.5284234,
+              27.6878107
+            ],
+            [
+              84.5278762,
+              27.6878736
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338733244",
+      "properties": {
+        "@id": "way/338733244",
+        "crop": "banana",
+        "landuse": "orchard",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5242771,
+              27.6903611
+            ],
+            [
+              84.5242176,
+              27.6900178
+            ],
+            [
+              84.5241359,
+              27.6892451
+            ],
+            [
+              84.5246605,
+              27.6891559
+            ],
+            [
+              84.5252078,
+              27.6890636
+            ],
+            [
+              84.5250414,
+              27.6879424
+            ],
+            [
+              84.5253051,
+              27.687905
+            ],
+            [
+              84.5254446,
+              27.6878856
+            ],
+            [
+              84.5255866,
+              27.6890151
+            ],
+            [
+              84.5262428,
+              27.6888884
+            ],
+            [
+              84.5261966,
+              27.6885166
+            ],
+            [
+              84.526117,
+              27.6879807
+            ],
+            [
+              84.5268631,
+              27.687887
+            ],
+            [
+              84.5269808,
+              27.6888141
+            ],
+            [
+              84.5277941,
+              27.6886801
+            ],
+            [
+              84.5278397,
+              27.6889091
+            ],
+            [
+              84.5276621,
+              27.6889569
+            ],
+            [
+              84.5277332,
+              27.6891578
+            ],
+            [
+              84.5274349,
+              27.6893636
+            ],
+            [
+              84.5273316,
+              27.6892191
+            ],
+            [
+              84.5271756,
+              27.689316
+            ],
+            [
+              84.5269604,
+              27.6893884
+            ],
+            [
+              84.5269772,
+              27.6895233
+            ],
+            [
+              84.5270663,
+              27.6896421
+            ],
+            [
+              84.5268784,
+              27.6897747
+            ],
+            [
+              84.5267757,
+              27.6895622
+            ],
+            [
+              84.5262706,
+              27.6897665
+            ],
+            [
+              84.5263593,
+              27.6899167
+            ],
+            [
+              84.5261545,
+              27.6899635
+            ],
+            [
+              84.5250925,
+              27.6901856
+            ],
+            [
+              84.525057,
+              27.6900452
+            ],
+            [
+              84.5250431,
+              27.6898249
+            ],
+            [
+              84.5250338,
+              27.6897425
+            ],
+            [
+              84.5248724,
+              27.6897567
+            ],
+            [
+              84.5248817,
+              27.6898391
+            ],
+            [
+              84.5248839,
+              27.6899029
+            ],
+            [
+              84.5246181,
+              27.6899535
+            ],
+            [
+              84.5247084,
+              27.6902713
+            ],
+            [
+              84.5242771,
+              27.6903611
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338733247",
+      "properties": {
+        "@id": "way/338733247",
+        "crop": "banana",
+        "landuse": "orchard",
+        "plant": "trees",
+        "source": "BajrabarahiFieldVisit"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.5271702,
+              27.688127
+            ],
+            [
+              84.5271472,
+              27.688031
+            ],
+            [
+              84.5276514,
+              27.6879593
+            ],
+            [
+              84.5276714,
+              27.6880603
+            ],
+            [
+              84.5271702,
+              27.688127
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/338762656",
+      "properties": {
+        "@id": "way/338762656",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.519658,
+              27.7004943
+            ],
+            [
+              84.5196478,
+              27.7002864
+            ],
+            [
+              84.5194324,
+              27.6988771
+            ],
+            [
+              84.5191681,
+              27.6968989
+            ],
+            [
+              84.5202109,
+              27.6967797
+            ],
+            [
+              84.5202462,
+              27.6967623
+            ],
+            [
+              84.5202556,
+              27.6967219
+            ],
+            [
+              84.5206836,
+              27.6966823
+            ],
+            [
+              84.5207488,
+              27.6966784
+            ],
+            [
+              84.5224351,
+              27.6965534
+            ],
+            [
+              84.5225626,
+              27.6975331
+            ],
+            [
+              84.5231221,
+              27.6974543
+            ],
+            [
+              84.523024,
+              27.6964998
+            ],
+            [
+              84.5245109,
+              27.6963375
+            ],
+            [
+              84.5246682,
+              27.6975458
+            ],
+            [
+              84.5248083,
+              27.6986101
+            ],
+            [
+              84.5249969,
+              27.7000649
+            ],
+            [
+              84.5251484,
+              27.7014353
+            ],
+            [
+              84.5247619,
+              27.7014013
+            ],
+            [
+              84.5245287,
+              27.7013491
+            ],
+            [
+              84.5243768,
+              27.7013341
+            ],
+            [
+              84.5239147,
+              27.7012293
+            ],
+            [
+              84.5229697,
+              27.7010647
+            ],
+            [
+              84.5207568,
+              27.7006543
+            ],
+            [
+              84.5204244,
+              27.7006309
+            ],
+            [
+              84.520237,
+              27.7005721
+            ],
+            [
+              84.5201013,
+              27.7005721
+            ],
+            [
+              84.5199507,
+              27.7005155
+            ],
+            [
+              84.5198126,
+              27.7005076
+            ],
+            [
+              84.5197536,
+              27.7005031
+            ],
+            [
+              84.519658,
+              27.7004943
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/340235277",
+      "properties": {
+        "@id": "way/340235277",
+        "crop": "banana",
+        "landuse": "orchard",
+        "name": "banana kheti",
+        "source": "Agriculture and Food Security Mapping"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              84.500619,
+              27.6915465
+            ],
+            [
+              84.4999963,
+              27.6916081
+            ],
+            [
+              84.4999054,
+              27.6908689
+            ],
+            [
+              84.5005346,
+              27.6908199
+            ],
+            [
+              84.500619,
+              27.6915465
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

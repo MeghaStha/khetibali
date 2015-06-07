@@ -372,15 +372,17 @@ $(document).ready(function() {
                                         "type": "food_secutiry_osm_geojson"
                                     }
                                 });
-
+								var orchards = [];
                                 modelQueryFarmland.done(function(data, params) {
                                             farmlandLayerGroup = L.geoJson(data, {
+											
                                         onEachFeature: function(feature, layer) {
                                   if (feature.properties.getAttributes().landuse === 'orchard'){
+								  
                                         var marker =  L.marker(layer.getBounds().getCenter(),{ icon : L.divIcon({ className : 'circle',
                                          iconSize : [ 5, 5 ]}), riseOnHover : true}).addTo(map);
                                             marker.toGeoJSON();
-                                            marker.bindPopup('For more information about Kiwi "Zoom In" the map');
+                                            marker.bindPopup('For more information about Banana "Zoom In" the map');
                                             marker.on ('mouseover', function(e){
                                             this.openPopup();
                                             });
@@ -412,20 +414,16 @@ $(document).ready(function() {
                                                         weight: 5,
                                                         opacity: 0.9,
                                                         color: '#f2e124',
-                                                            fillColor: '#f2e124',
                                                         dashArray: '',
-                                                fillOpacity: 0.7
-                                                    });
+                                                     });
                                                 }
                                                 else if (layer.feature.properties.getAttributes().farming_system === 'bari'){
 
                                                     layer.setStyle({ // highlight the feature
                                                         weight: 5,
                                                         color: '#855a19',
-                                                            fillColor: '#855a19',
                                                         dashArray: '',
-                                                fillOpacity: 0.9
-                                                    });
+                                                         });
                                                 }
                                             else if (layer.feature.properties.getAttributes().landuse === 'orchard'){
 
@@ -526,10 +524,23 @@ $(document).ready(function() {
                                             } catch (e) {
                                                 console.log("landuse not defined for " + feature.properties.getAttributes()["id"]);
                                             }
+											if (feature.properties.getAttributes().landuse === 'orchard'){
+											orchards.push (layer);
+											}
+											else {
+											layer.addTo(map);
+											}
+											/*$(layer._container).addClass();
+											console.log(feature.properties.getAttributes());*/
+											
+											//$(layer._container).attr("class",feature.properties.getAttributes().landuse);
+											
 
                                         }
-                                    }).addTo(map);
-
+                                    });//.addTo(map);
+									orchards.forEach(function (layer,index){
+									layer.addTo(map);
+									});
 
 
                                 });

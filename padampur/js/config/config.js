@@ -45,7 +45,7 @@ config = {
                 "fillColor": "url('#kiwi')",
                 "fillOpacity": 1
             },
-            "potato":{
+            "banana":{
                 fillColor: "url('#potatoes')",
                 fillOpacity: 1,
                 color: "#666666",
@@ -96,8 +96,8 @@ config = {
         "min": 13
     },
     "basemap-servers": [
-        //"http://{s}.tile.openstreetmap.org",
-        "http://104.131.69.181/osm"
+        "http://{s}.tile.openstreetmap.org",
+       // "http://104.131.69.181/osm"
     ],
     "month-list":[
         "Baishak",

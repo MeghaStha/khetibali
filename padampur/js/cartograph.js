@@ -123,7 +123,7 @@ function UI_OverviewMap(options) {
         if (options.basemap)
             basemap = options.basemap;
         else
-            basemap = L.tileLayer('http://104.131.69.181/osm/{z}/{x}/{y}.png', {
+            basemap = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 //attribution: 'Map data and tiles &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://www.openstreetmap.org/copyright/">Read the Licence here</a> | Cartography &copy; <a href="http://kathmandulivinglabs.org">Kathmandu Living Labs</a>, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
                 maxZoom: 5,
                 minZoom: 5
@@ -1168,7 +1168,7 @@ function UI_PiechartGallery(options) {
 function UI_kiwichartGallery(options) {
     var widgetBox = $("<div></div>").addClass("widget-kiwi-gallery").addClass(options.class);
     setTimeout(function() {
-              var kiwiBox = $("<div></div>").addClass("kiwi-preview").text('Kiwi farm');
+              var kiwiBox = $("<div></div>").addClass("kiwi-preview").text('Banana farm');
                 var klistItem = $("<ul id='knewList'></ul>");
                 klistItem.append("<li> Owner: "+ options.charts[0] + "</li>"+
                                 "<li> Area: "+ options.charts[1] + "</li>"+

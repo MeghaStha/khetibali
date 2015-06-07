@@ -97,7 +97,7 @@ config = {
     },
     "basemap-servers": [
         //"http://{s}.tile.openstreetmap.org",
-        "http://104.131.69.181/osm"
+        "http://{s}.tile.openstreetmap.org"
     ],
     "month-list":[
         "Baishak",

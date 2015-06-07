@@ -6,8 +6,8 @@ header:{
 		}
  },
  	size: {
-		canvasHeight: 250,
-		canvasWidth: 400,
+		canvasHeight: 500,
+		canvasWidth: 500,
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
@@ -27,8 +27,8 @@ header:{
 		}
  },
   	size: {
-		canvasHeight: 250,
-		canvasWidth: 400,
+		canvasHeight: 500,
+		canvasWidth: 500,
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
@@ -52,8 +52,8 @@ header:{
 		}
  },
   	size: {
-		canvasHeight: 250,
-		canvasWidth: 400,
+		canvasHeight: 500,
+		canvasWidth: 500,
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
@@ -73,8 +73,8 @@ header:{
 		}
  },
   	size: {
-		canvasHeight: 250,
-		canvasWidth: 400,
+		canvasHeight: 500,
+		canvasWidth: 500,
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
@@ -96,8 +96,8 @@ header:{
 	}
 },
  	size: {
-		canvasHeight: 250,
-		canvasWidth: 400,
+		canvasHeight: 500,
+		canvasWidth: 500,
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},

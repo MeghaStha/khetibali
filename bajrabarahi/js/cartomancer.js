@@ -411,9 +411,7 @@ $(document).ready(function() {
                                                         weight: 5,
                                                         opacity: 0.9,
                                                         color: '#f2e124',
-                                                            fillColor: '#f2e124',
-                                                        dashArray: '',
-                                                fillOpacity: 0.7
+                                                        dashArray: ''                                            
                                                     });
                                                 }
                                                 else if (layer.feature.properties.getAttributes().farming_system === 'bari'){
@@ -421,9 +419,7 @@ $(document).ready(function() {
                                                     layer.setStyle({ // highlight the feature
                                                         weight: 5,
                                                         color: '#855a19',
-                                                            fillColor: '#855a19',
-                                                        dashArray: '',
-                                                fillOpacity: 0.9
+                                                        dashArray: ''                                              
                                                     });
                                                 }
                                             else if (layer.feature.properties.getAttributes().landuse === 'orchard'){

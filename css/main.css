@@ -276,3 +276,22 @@ text-decoration: underline;
 position: relative;
 display : inline-block;
 }
+.a-subnav-item{
+background-color: red;
+}
+.khetibalilogo {
+background-image: url('images/logo.png');
+background-color: #BBCDAF;
+background-repeat: no-repeat;
+  height: 70px;
+    padding-bottom: 4em;
+}
+.khetibalilogo:hover{
+cursor: pointer;
+}
+.klllogo {
+background-image: url('images/logo.png');
+background-color: #BBCDAF;
+background-repeat: no-repeat;
+  height: 70px;
+}

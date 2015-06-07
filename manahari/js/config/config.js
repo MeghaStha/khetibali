@@ -38,14 +38,7 @@ config = {
                 "fillColor": "url('#orchard')",
                 "fillOpacity": 1
             },
-			     "kiwi":{
-                "color": "#ed7474",
-                "weight": 2,
-                "opacity": 1,
-                "fillColor": "url('#kiwi')",
-                "fillOpacity": 1
-            },
-            "potato":{
+	         "potato":{
                 fillColor: "url('#potatoes')",
                 fillOpacity: 1,
                 color: "#666666",
@@ -72,32 +65,14 @@ config = {
             opacity: 0,
             fillOpacity: 0
         },
-        "legend-icons":{
-            "khet": {
-			"background-image":"images/khet.PNG",
-			},
-           "bari": "images/bari.PNG",       
-		 "orchard": "images/orchard.PNG",
-		 "trunk road": "images/trunk.PNG",
-		 "track": "images/track.PNG",
-		 "path": "images/path.PNG"
-		 }
-    },
-    "navbar": {
-        //title: "Khetibali",
-       tabs: ["Map","Manahari", "Statistics", "Mapping Process", "Khetibali"]
-    },
-    "main-headings":{
-        //"start-page": ["About"],
-        "start-page":["Map","Manahari", "Statistics", "Mapping Process", "Khetibali"]
     },
     "start-screen-zoom-limits":{
         "max":22,
         "min": 13
     },
     "basemap-servers": [
-        //"http://{s}.tile.openstreetmap.org",
-        "http://104.131.69.181/osm"
+        "http://{s}.tile.openstreetmap.org",
+        //"http://104.131.69.181/osm"
     ],
     "month-list":[
         "Baishak",

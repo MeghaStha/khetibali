@@ -1307,19 +1307,7 @@ z-index: 1;
   background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
 }
 
-.khetibalilogo {
-background-image: url('images/logo.png');
-background-color: #BBCDAF;
-background-repeat: no-repeat;
-  height: 70px;
-    padding-bottom: 4em;
-}
-.klllogo {
-background-image: url('images/logo.png');
-background-color: #BBCDAF;
-background-repeat: no-repeat;
-  height: 70px;
-}
+
 #bajra-map{
 display: block;
 }
@@ -1329,6 +1317,7 @@ display: block;
 #bajra-profile{
 display: block;
 }
+
 
 /*#toggle.on .one {
   transform: rotate(45deg) translate(5px, 5px);
