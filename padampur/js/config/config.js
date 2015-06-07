@@ -46,22 +46,25 @@ config = {
                 "fillOpacity": 1
             },
             "banana":{
-                fillColor: "url('#banana')",
-                fillOpacity: 1,
-                color: "#666666",
-                weight: 2
+                "color": "#ebeb52",
+                "weight": 2,
+                "opacity": 1,
+                "fillColor": "url('#banana')",
+                "fillOpacity": 1
             },
                 "brinjal":{
-                fillColor: "url('#brinjal')",
-                fillOpacity: 1,
-                color: "#666666",
-                weight: 2
+                 "color": "#ebeb52",
+                "weight": 2,
+                "opacity": 1,
+                "fillColor": "url('#brinjal')",
+                "fillOpacity": 1
             },
 			    "maize":{
-                fillColor: "url('#corn')",
-                fillOpacity: 1,
-                color: "#666666",
-                weight: 2
+                  "color": "#ebeb52",
+                "weight": 2,
+                "opacity": 1,
+                "fillColor": "url('#corn')",
+                "fillOpacity": 1
             }
         },
         "pie-chart-segments":{
