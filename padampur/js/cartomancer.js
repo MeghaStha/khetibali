@@ -401,8 +401,8 @@ $(document).ready(function() {
                                              });
                                              }*/
        layer.on({
-                                                    mouseover: highlightFeature,
-                                                    mouseout: resetHighlight,
+                                                    //mouseover: highlightFeature,
+                                                    //mouseout: resetHighlight,
                                                     
                                                // pointToLayer: pointToLayer
                                                 });
@@ -429,7 +429,7 @@ $(document).ready(function() {
 
                                                     layer.setStyle({ // highlight the feature
                                                         weight: 5,
-                                                            fillColor: '#4f40c2',
+                                                            fillColor: '#0b9c9c',
                                                         dashArray: '',
                                                 fillOpacity: 0.9
                                                     });

@@ -4,62 +4,7 @@ body{
     font-size: 12pt;
 }
 
-/* Navigation Menu - List items */
-.nav-item {
-  /* non-critical appearance styles */
- /* width: 200px;*/
-  border-top: 1px solid #BBCDAF;
-  border-bottom: 1px solid #BBCDAF;
-}
 
-.nav-item a {
-  /* non-critical appearance styles */
-  display: block;
-  padding: 1em;
-  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(130, 160, 111, 1) 100%);
-  color: white;
-  font-size: 1.2em;
-  text-decoration: none;
-  transition: color 0.2s, background 0.5s;
-}
-
-.nav-item a:hover {
-  color: #c74438;
-  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
-}
-/* Navigation Menu - List items */
-.subnav-item {
-  /* non-critical appearance styles */
- /* width: 200px;*/
-  border-top: 1px solid #BBCDAF;
-  border-bottom: 1px solid #BBCDAF;
-  display:none;
-}
-
-.subnav-item a {
-  /* non-critical appearance styles */
-  display: block;
-  padding: 1em;
-  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(130, 160, 111, 1) 100%);
-  color: white;
-  font-size: 1.2em;
-  text-decoration: none;
-  transition: color 0.2s, background 0.5s;
-}
-
-.subnav-item a:hover {
-  color: #c74438;
-  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(75,20,20,0.65) 100%);
-}
-
-.khetibalilogo {
-
-background-image: url('images/logo.png');
-background-color: #BBCDAF;
-background-repeat: no-repeat;
-  height: 70px;
-    padding-bottom: 4em;
-}
 .klllogo {
 background-image: url('images/logo.png');
 background-color: #BBCDAF;
