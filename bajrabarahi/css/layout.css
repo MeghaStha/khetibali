@@ -1257,6 +1257,14 @@ display: block;
 g:hover{
 opacity: 0.5;
 }
+@media (min-width:1370px) and (min-height: 700px){
+div.legend{
+height: 28.89%;
+}
+div.legend-grey{
+height: 25.89%;
+}
+}
 /*#toggle
 .on .one {
   transform: rotate(45deg) translate(5px, 5px);
