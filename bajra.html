@@ -23,7 +23,42 @@
         <script src="bajrabarahi/js/cartograph.js"></script>
         <script src="bajrabarahi/js/cartomancer.js"></script>
 		<link rel="stylesheet" href="css/main.css"/>
- 
+    <script>
+	   $('#bajranav-item').click(function(){
+	   $(this).toggleClass("on");
+	   if ($(this).hasClass("on")){
+	   	   $('#bajra-map').css("display","none");
+	   $('#bajra-profile').css("display","none");
+	   }
+	   else{
+	   $("#bajra-map").css("display","block");
+	   $("#bajra-profile").css("display","block");
+	   }
+	    });
+		  $('#padamnav-item').click(function(){
+	   $(this).toggleClass("on");
+	   if ($(this).hasClass("on")){
+	   $("#padam-map").css("display","block");
+	   $("#padam-profile").css("display","block");
+	   }
+	   else{
+	   $('#padam-map').css("display","none");
+	   $('#padam-profile').css("display","none");
+	   }
+	   });
+        $('#mananav-item').click(function(){
+	   $(this).toggleClass("on");
+	   if ($(this).hasClass("on")){
+	   $("#mana-map").css("display","block");
+	   $("#mana-profile").css("display","block");
+	   }
+	   else{
+	   $('#mana-map').css("display","none");
+	   $('#mana-profile').css("display","none");
+	   }
+	   });
+
+        </script>
     </head>
     <body>
   <div class="pure-g">
@@ -149,42 +184,7 @@
 			
 		</div>
        </div>
-       <script>
-	   $('#bajranav-item').click(function(){
-	   $(this).toggleClass("on");
-	   if ($(this).hasClass("on")){
-	   	   $('#bajra-map').css("display","none");
-	   $('#bajra-profile').css("display","none");
-	   }
-	   else{
-	   $("#bajra-map").css("display","block");
-	   $("#bajra-profile").css("display","block");
-	   }
-	    });
-		  $('#padamnav-item').click(function(){
-	   $(this).toggleClass("on");
-	   if ($(this).hasClass("on")){
-	   $("#padam-map").css("display","block");
-	   $("#padam-profile").css("display","block");
-	   }
-	   else{
-	   $('#padam-map').css("display","none");
-	   $('#padam-profile').css("display","none");
-	   }
-	   });
-        $('#mananav-item').click(function(){
-	   $(this).toggleClass("on");
-	   if ($(this).hasClass("on")){
-	   $("#mana-map").css("display","block");
-	   $("#mana-profile").css("display","block");
-	   }
-	   else{
-	   $('#mana-map').css("display","none");
-	   $('#mana-profile').css("display","none");
-	   }
-	   });
-
-        </script>
+    
     </body>
     </body>
 </html>

@@ -60,9 +60,9 @@ header:{
 		{label: "Agriculture", value: 46},
 		{label: "Civil Service", value: 3},
 		{label: "Non-Civil Service", value: 5},
-		{label: "Foreign Employment", vlaue: 12},
+		{label: "Foreign Employment", value: 12},
 		{label: "Labour", value: 23},
-		{lable: "Unemployement", value: 10}
+		{label: "Unemployement", value: 10}
 		]
  
  }

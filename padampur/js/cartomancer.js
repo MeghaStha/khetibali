@@ -377,7 +377,7 @@ $(document).ready(function() {
                                             farmlandLayerGroup = L.geoJson(data, {
 											
                                         onEachFeature: function(feature, layer) {
-                                  if (feature.properties.getAttributes().landuse === 'orchard'){
+                                  /*if (feature.properties.getAttributes().landuse === 'orchard'){
 								  
                                         var marker =  L.marker(layer.getBounds().getCenter(),{ icon : L.divIcon({ className : 'circle',
                                          iconSize : [ 5, 5 ]}), riseOnHover : true}).addTo(map);
@@ -389,7 +389,7 @@ $(document).ready(function() {
                                             marker.on ('mouseout', function(e){
                                             this.closePopup();
                                             });
-                                            }
+                                            }*/
                                             layer._cartomancerStyleIndex = 0;
                                             layer.setStyle(config["layer-styles"]["map-features"][layer.feature.properties.getAttributes().farming_system?layer.feature.properties.getAttributes().farming_system:layer.feature.properties.getAttributes().landuse]);
 											layer.setStyle(config["layer-styles"]["map-features"][layer.feature.properties.getAttributes().farming_system?layer.feature.properties.getAttributes().farming_system:layer.feature.properties.getAttributes().landuse]);

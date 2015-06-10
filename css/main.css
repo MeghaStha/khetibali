@@ -112,6 +112,7 @@ width: 100%;
 height: 86%;
 border-bottom-left-radius: 15px;
 border-bottom-right-radius: 15px;
+background-size: cover;
 }
 div#manamap{
 top: 14.2%;
@@ -123,6 +124,7 @@ width: 100%;
 height: 86%;
 border-bottom-left-radius: 15px;
 border-bottom-right-radius: 15px;
+background-size: cover;
 }
 div#padammap{
 top: 14.2%;
@@ -134,8 +136,14 @@ width: 100%;
 height: 86%;
 border-bottom-left-radius: 15px;
 border-bottom-right-radius: 15px;
+background-size: cover;
 }
 div.cropicon{
+display:flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
 position: absolute;
 float: left;
 left: 15%;
@@ -372,9 +380,9 @@ ul {
     padding: 0;
     list-style-type: none;
 }
-@media (min-width: 1370px) and (min-height : 700px){
+@media only screen and (min-width: 1370px) and (min-height : 700px){
 div.container{
-height: 900px;
+height: 877px;
 }
 div#bajra {
 height: 54.87%;

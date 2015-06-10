@@ -27,6 +27,7 @@ display: block;
 display: block;
 }
 </style>
+
 </head>
 <body>
  <div class="pure-g">
@@ -167,7 +168,8 @@ console.log('aaaa');
                 scrollTop: $(window).scrollTop() - scrollAmount
             }, time);
 });
-	   $('#bajranav-item').click(function(){
+
+ $('#bajranav-item').click(function(){
 	   $(this).toggleClass("on");
 	   if ($(this).hasClass("on")){
 	   	   $('#bajra-map').css("display","none");
@@ -200,6 +202,7 @@ console.log('aaaa');
 	   $('#mana-profile').css("display","none");
 	   }
 	   });
+
 </script>
 </body>
 </html>

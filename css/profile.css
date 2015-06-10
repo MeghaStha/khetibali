@@ -96,18 +96,22 @@ position: absolute;
 	#slide1{
 	background-image: url('images/abt21.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
 	}
 #slide2{
 	background-image: url('images/presentation.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 #slide3{
 	background-image: url('images/smallfarmer.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
 }
  #slide4{
  background-image: url('images/1.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
 	}
 .slide > header {
   position: absolute;
@@ -139,7 +143,8 @@ position: absolute;
   position: relative;
   z-index: 1;
 }
-@media (min-height: 700px) and (min-width: 1370px){
+@media only screen and (min-height: 700px) and (min-width: 1370px){
 .slide {
   height: 900px;
+}
 }
