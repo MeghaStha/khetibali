@@ -93,23 +93,108 @@ position: absolute;
  
 }
 
-	#slide1{
+	#bslide1{
 	background-image: url('images/abt21.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	}
-#slide2{
+#bslide2{
 	background-image: url('images/presentation.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-#slide3{
+#bslide3{
 	background-image: url('images/smallfarmer.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
- #slide4{
+ #bslide4{
  background-image: url('images/1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#pslide1{
+	background-image: url('images/1stvisit.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#pslide2{
+	background-image: url('images/banana.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#pslide3{
+	background-image: url('images/cow.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #pslide4{
+ background-image: url('images/eggs.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}	
+#pslide5{
+	background-image: url('images/mapping.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#pslide6{
+	background-image: url('images/padampur.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+	#mslide1{
+	background-image: url('images/manahari.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#mslide2{
+	background-image: url('images/girls.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#mslide3{
+	background-image: url('images/nama.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #mslide4{
+ background-image: url('images/nirab.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+ #mslide5{
+ background-image: url('images/presentation_mana.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#mslide6{
+	background-image: url('images/review.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#mslide7{
+	background-image: url('images/tractor.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #mslide8{
+ background-image: url('images/training.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	#aslide1{
+	background-image: url('images/rainbow.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #aslide2{
+ background-image: url('images/khet_about.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+ #aslide3{
+ background-image: url('images/factory.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	}

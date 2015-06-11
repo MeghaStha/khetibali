@@ -339,9 +339,10 @@ background-color: #059905;
   display: block;
    padding: 1em;
  /* background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(130, 160, 111, 1) 100%);;*/
-  color: white;
+  color: black;
   font-size: 1.2em;
   text-decoration: none;
+  font-weight: bold;
   transition: color 0.2s, background 0.5s;
 background-color: #059905;
 }
@@ -380,6 +381,22 @@ ul {
     padding: 0;
     list-style-type: none;
 }
+.b-nav-item a{
+  /* non-critical appearance styles */
+  display: block;
+ /* background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(130, 160, 111, 1) 100%);;*/
+  color: black;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: color 0.2s, background 0.5s;
+font-weight: bold;
+  padding: 1em;
+}
+li#padamnav-item {
+  /* padding-left: 20px; */
+  margin: inherit;
+  /* padding: 1em; */
+}
 @media only screen and (min-width: 1370px) and (min-height : 700px){
 div.container{
 height: 877px;
@@ -402,4 +419,16 @@ background-size: cover;
 div#manamap{
 background-size: cover;
 }
+}
+.separator{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+flex-flow: center;
+float: left;
+left: 1em;
+position: absolute;
+background-color: black;
+width: 200px;
+height: 1px;
 }

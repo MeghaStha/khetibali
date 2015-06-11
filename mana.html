@@ -15,6 +15,7 @@
         <script src="manahari/js/leaflet.js"></script>
        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
         <link rel="stylesheet" href="css/leaflet.css"/>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="manahari/css/layout.css" data-skrollr-stylesheet/>
         <script src="manahari/js/config/config.js"></script>
         <script src="manahari/js/plugins.js"></script>
@@ -31,22 +32,22 @@
  <div class="pure-u-1-5">
  <div class="khetibalilogo"></div>
  <ul class="navigation">
-    <li class="nav-item" id="bajranav-item"><a href="#">Bajrabarahi VDC</a>
+    <li class="nav-item" id="bajranav-item"><a href="bajra.html">Bajrabarahi VDC</a>
 	<ul>
 	<li class="subnav-item" id="bajra-map"><a href="bajra.html">Map </a></li>
 	<li class="subnav-item" id="bajra-profile"><a href="bajraprofile.html">Profile</a></li>
 	</ul>
 	</li>
-    <li class="nav-item" id="padamnav-item"><a href="#">Padampur VDC</a>
+    <li class="nav-item" id="padamnav-item"><a href="padam.html">Padampur VDC</a>
 	<ul>
 	<li class="subnav-item" id="padam-map"><a href="padam.html">Map </a></li>
 	<li class="subnav-item" id="padam-profile"><a href="padamprofile.html">Profile</a></li>
 	</ul>
 	</li>
-    <li class="nav-item" id="mananav-item"><a href="#">Manahari VDC</a>
+    <li class="b-nav-item" id="mananav-item"><a href="mana.html">Manahari VDC</a>
 	<ul>
-	<li class="a-subnav-item" id="mana-map"><a href="mana.html">Map </a></li>
-	<li class="subnav-item" id="mana-profile"><a href="manaprofile.html">Profile</a></li>
+	<li class="a-subnav-item" id="mana-map"><a href="mana.html"><i class="fa fa-chevron-circle-right"></i> Map </a></li>
+	<li class="subnav-item" id="mana-profile"><a href="manaprofile.html"><i class="fa fa-chevron-circle-right"></i> Profile</a></li>
 	</ul>
 	</li>
     <li class="nav-item"><a href="mappingprocess.html">The Mapping Process</a></li>
@@ -142,40 +143,6 @@
             </svg>
 			
 		</div>
-       	<script>
-		   $('#bajranav-item').click(function(){
-	   $(this).toggleClass("on");
-	   if ($(this).hasClass("on")){
-	   	   $("#bajra-map").css("display","block");
-	   $("#bajra-profile").css("display","block");
-	   }
-	   else{
-	   	   $('#bajra-map').css("display","none");
-	   $('#bajra-profile').css("display","none");
-	   }
-	    });
-		  $('#padamnav-item').click(function(){
-	   $(this).toggleClass("on");
-	   if ($(this).hasClass("on")){
-	   $("#padam-map").css("display","block");
-	   $("#padam-profile").css("display","block");
-	   }
-	   else{
-	   $('#padam-map').css("display","none");
-	   $('#padam-profile').css("display","none");
-	   }
-	   });
-        $('#mananav-item').click(function(){
-	   $(this).toggleClass("on");
-	   if ($(this).hasClass("on")){
-   	   $('#mana-map').css("display","none");
-	   $('#mana-profile').css("display","none");
-	   }
-	   else{
-	   $("#mana-map").css("display","block");
-	   $("#mana-profile").css("display","block");
-	   }
-	   });
-	</script>
+
    </body>
 </html>
