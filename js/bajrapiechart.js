@@ -17,11 +17,14 @@ header:{
 		}
  },
  	size: {
-		canvasHeight: 500,                 canvasWidth: 500,
+		canvasHeight: 300,                 canvasWidth: 300,
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
     labels: {
+	label : {
+		fontSize: 5
+	},
         formatter: myLabelFormatter,
         inner: {
             format: "value"
@@ -44,7 +47,7 @@ header:{
 		}
  },
   	size: {
-		canvasHeight: 500,                 canvasWidth: 500,
+		canvasHeight: 300,                 canvasWidth: 300,
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
@@ -56,10 +59,12 @@ header:{
     },
  data :{
 		content: [
-		{label: "Oil Producing", value: 48098},
-		{label: "Vegetables", value: 42770},
-		{label: "Khadhyan", value: 8636},
-		{label: "Lentils", value: 2207}
+		{label: "Vegetable", value: 42770}	,
+		{label: "Lentils", value: 2207}	,		
+		{label: "OilProduce", value: 48098},
+		{label: "Khadhyan", value: 8636}	
+			
+		
 		]
  
  }
@@ -72,7 +77,7 @@ header:{
 		}
  },
   	size: {
-		canvasHeight: 500,                 canvasWidth: 500,
+		canvasHeight: 300,                 canvasWidth: 300,
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
@@ -98,7 +103,7 @@ header:{
 		}
  },
   	size: {
-		canvasHeight: 500,                 canvasWidth: 500,
+		canvasHeight: 300,                 canvasWidth: 300,
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
@@ -129,7 +134,7 @@ header:{
 	}
 },
  	size: {
-		canvasHeight: 500,                 canvasWidth: 500,
+		canvasHeight: 300,                 canvasWidth: 300,
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
@@ -160,7 +165,7 @@ header:{
 	}
 },
  	size: {
-		canvasHeight: 500,                 canvasWidth: 500,
+		canvasHeight: 300,                 canvasWidth: 300,
 		pieInnerRadius: 0,
 		pieOuterRadius: null
 	},
@@ -170,48 +175,17 @@ header:{
     },
 data : {
  content: [
- {label: "Agriculture", value : 319889673},
- {label : "Business/ Industry", value: 48113000},
- {label: "Service", value: 43613560},
  {label: "Foreign Employment", value: 24415000},
+ {label: "Other", value: 40981000},
+   {label: "Agriculture", value : 319889673},
+  {label: "Service", value: 43613560},
  {label: "Jyala Majduri", value: 95318500},
- {label: "Other", value: 40981000}
+ {label : "Business/ Industry", value: 48113000}
  ]
 
 }
 
 
 });
-var pie = new d3pie("training",{
-header:{
-	title: {
-	text : "People taking Professional Traning"
-	}
-},
- 	size: {
-		canvasHeight: 500,                 canvasWidth: 500,
-		pieInnerRadius: 0,
-		pieOuterRadius: null
-	},
-	    labels: {
-        formatter: myLabelFormatter,
-        inner: {
-            format: "value"
-        }
-    },
-data : {
- content: [
- {label: "Agriculture/ Livestock", value : 149},
- {label : "JTA", value: 1},
- {label: "Others", value: 17},
- {label: "Mechanic", value: 9},
- {label: "Trailoring", value: 28},
- {label: "Computer", value: 34},
- {label: "Electrical", value: 5}
- ]
 
-}
-
-
-});
 });

@@ -52,9 +52,9 @@ position: absolute;
     -webkit-transition-duration: 0.7s;
     background-color: transparent;
 }
-.slide{
+.section{
     width:100%;
-    height:677px;
+   /* height:677px;*/
     position: relative;
 }
   #up{
@@ -62,8 +62,8 @@ position: absolute;
     width:50px;
     height:50px;
     position:absolute;
-    top:0px;
-    left:95%;
+  top: 0.9em;
+  left: 94%;
 	z-index: 2;
     margin-left: -25px;
     background-color: transparent;
@@ -78,8 +78,8 @@ position: absolute;
     width:50px;
     height:50px;
     position:absolute;
-    bottom:0px;
-    left:95%;
+    bottom:0.7em;
+    left:90%;
     margin-left: -25px;
     background-color: transparent;
     background-image:url(images/arrow.png);
@@ -92,7 +92,9 @@ position: absolute;
      cursor:pointer;
  
 }
-
+.fp-tableCell {
+  padding: 9px;
+}
 	#bslide1{
 	background-image: url('images/abt21.jpg');
 	background-repeat: no-repeat;
@@ -198,7 +200,11 @@ position: absolute;
 	background-repeat: no-repeat;
 	background-size: cover;
 	}
-.slide > header {
+.h {
+  position: relative;
+  top: 45%;
+}
+.section > .h {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -208,7 +214,7 @@ position: absolute;
  padding: 20px 0px;
   overflow: hidden;
 }
-.slide > header::before {
+.section > .h::before {
   content: "";
   position: absolute;
   top: 0;
@@ -222,14 +228,33 @@ position: absolute;
   filter: blur(15px);
   transform: scale(2) translateY(20px);*/
 }
-.slide > header > h1 {
+.section > .h > h1 {
   margin: 0;
   color: white;
   position: relative;
   z-index: 1;
 }
+svg {
+  padding: 20px;
+}
+.scroll-down{
+position: relative;
+color: white;
+font-family: aller;
+font-size: 1.5em;
+left: 85%;
+  top: 35%;
+}
+.scroll-up {
+  position: absolute;
+  color: black;
+  font-family: aller;
+  font-size: 1.5em;
+  left: 90%;
+  top: 0px;
+}
 @media only screen and (min-height: 700px) and (min-width: 1370px){
-.slide {
+.section {
   height: 900px;
 }
 }

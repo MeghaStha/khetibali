@@ -17,7 +17,7 @@ function Map(options) {
 
 
     var map = L.map('map', mapOptions);
-    //map.setMaxBounds([[27.5752932, 85.0182358], [27.862183, 85.2155915]]);
+    map.setMaxBounds([[27.6552932, 84.4299998], [27.733999, 84.5865915]]);
 
     function osmTiles() {
         return L.tileLayer(config["basemap-servers"][0] + '/{z}/{x}/{y}.png', {

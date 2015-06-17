@@ -13,6 +13,8 @@ Khetibali
         <script src="bajrabarahi/js/d3pie.min.js"></script>
 		<script src="js/piechart.js"></script>
 		<script src="js/parallax.js"></script>
+		<script src="bajrabarahi/js/jquery.fullPage.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/profile.css">
@@ -57,65 +59,73 @@ display: block;
     <li class="nav-item"><a href="about.html">About Khetibali</a></li>
 </ul>
 
-			<div class="klllogo"></div>
 				</div>
 				<div class="pure-u-4-5">
-				
-	<div class="slide" id="pslide1">
-	<header>
+			<div id="fullpage">	
+	<div class="section" id="pslide1">
+	<div class="h">
     <h1>
       Skyscraper
     </h1>
-  </header>
-	<a class="button" id="down" title=""></a>
+  </div>
+  		<div class='scroll-down'>
+	Scroll down
+	</div>
+	<a class="button" id="down" title="">
+	</a>
+
 		</div>
-	<div class="slide" id="pslide2" >
-		<a class="button" id="up" title=""></a>
-			  <header>
+		<div class="section" id="pslide2" >
+	
+			  <div class ='h'>
     <h1>
       Skyscraper
     </h1>
-  </header>
-	<a class="button" id="down" title=""></a>			
+  </div>
+		
 					</div>
-	<div class="slide" id="pslide3" >
+	<div class="section" id="pslide3" >
 		<a class="button" id="up" title=""></a>
-			  <header>
+			  <div class='h'>
     <h1>
       Skyscraper
     </h1>
-  </header>
-	<a class="button" id="down" title=""></a>			
-					</div>
-	<div class="slide" id="pslide4" >
-		<a class="button" id="up" title=""></a>
-			  <header>
-    <h1>
-      Skyscraper
-    </h1>
-  </header>
-	<a class="button" id="down" title=""></a>			
-					</div>
-	<div class="slide" id="pslide5" >
-		<a class="button" id="up" title=""></a>
-			  <header>
-    <h1>
-      Skyscraper
-    </h1>
-  </header>
-	<a class="button" id="down" title=""></a>			
-					</div>
-		<div class="slide" id="pslide6">
-		<a class="button" id="up" title=""></a>
-			  <header>
-    <h1>
-      Skyscraper
-    </h1>
-  </header>
-	<a class="button" id="down" title=""></a>			
-					</div>
-				<div class="chartBox">
+  </div>
 				
+					</div>
+	<div class="section" id="pslide4" >
+			  <div class='h'>
+    <h1>
+      Skyscraper
+    </h1>
+  </div>
+			
+					</div>
+		<div class="section" id="pslide5" >
+	
+			  <div class ='h'>
+    <h1>
+      Skyscraper
+    </h1>
+  </div>
+		
+					</div>
+		<div class="section" id="pslide6" >
+	
+			  <div class ='h'>
+    <h1>
+      Skyscraper
+    </h1>
+  </div>
+		
+					</div>
+
+	<div class="section">
+	<div class="chartBox">
+		 		<div class='scroll-up'>
+	Scroll up
+	</div>
+		<a class="button" id="up" title=""></a>
 <div class="chart" id="pop"></div>
 <div class="chart" id="occupation"></div>
 <div class="chart" id="literacy"></div>
@@ -123,66 +133,12 @@ display: block;
 <div class="chart" id="agri-pop"></div>
 </div>
 </div>
+	</div>
+</div>
 <script>
-if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
-window.onmousewheel = document.onmousewheel = wheel;
+$(document).ready(function() {
+    $('#fullpage').fullpage();
 
-var time = 1000;
-var percentageToScroll = 1.0;
-var documentHeight = $('.slide').height();
-console.log(documentHeight);
-var scrollAmount = Math.floor(documentHeight * percentageToScroll);
-
-
-function wheel(event) {
-    if (event.wheelDelta) delta = event.wheelDelta / 120;
-    else if (event.detail) delta = -event.detail / 3;
-
-    handle();
-    if (event.preventDefault) event.preventDefault();
-    event.returnValue = false;
-}
-
-function handle() {
-
-    $('html, body').stop().animate({
-        scrollTop: $(window).scrollTop() - (scrollAmount * delta)
-    }, time);
-}
-
-
-$(document).keydown(function (e) {
-
-    switch (e.which) {
-        //up
-        case 38:
-            e.preventDefault();
-            $('html, body').stop().animate({
-                scrollTop: $(window).scrollTop() - scrollAmount
-            }, time);
-            break;
-
-            //down
-        case 40:
-            e.preventDefault();
-            $('html, body').stop().animate({
-                scrollTop: $(window).scrollTop() + scrollAmount
-            }, time);
-            break;
-    }
-});
-$('a#down').on('click',function(){
-
-console.log('aaaa');
-            $('html, body').stop().animate({
-                scrollTop: $(window).scrollTop() + scrollAmount
-            }, time);
-});
-$('a#up').on('click',function(){
-console.log('aaaa');
-            $('html, body').stop().animate({
-                scrollTop: $(window).scrollTop() - scrollAmount
-            }, time);
 });
  
 </script>
