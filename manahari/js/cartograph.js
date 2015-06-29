@@ -6,7 +6,7 @@ function Map(options) {
         minZoom: config["map-options"]["min-zoom"],
         doubleClickZoom: true,
         zoomControl: true,
-        attributionControl: false,
+        attributionControl: true,
         inertia: true
        
     };
@@ -21,8 +21,7 @@ function Map(options) {
 
     function osmTiles() {
         return L.tileLayer(config["basemap-servers"][0] + '/{z}/{x}/{y}.png', {
-            //attribution: 'Basemap data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors | Powered by <a href="http://kathmandulivinglabs.org">Kathmandu Living Labs <img class="klllogo" src="../images/klllogo.gif"/></a>'
-            //,maxZoom: 19,
+    attribution: 'Basemap data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors | Developed by <a href="http://kathmandulivinglabs.org">Kathmandu Living Labs</a>| Supported by<a href="http://www.icimod.org">ICIMOD </a> and <a href="http://www.nasa.gov/">NASA </a>'
             //minZoom: 1
         });
     }

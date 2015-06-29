@@ -1241,7 +1241,13 @@ navmenu1 a:hover:before {
   border-top-left-radius: 10px;
 
 }
-
+.leaflet-right .leaflet-control {
+  position: absolute;
+  float: left;
+    right: 280px;
+  width: 450px;
+  bottom: 2px;
+}
 .navmenu2 a{  
 display: block;
   height: 7px;

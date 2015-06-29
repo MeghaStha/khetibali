@@ -145,6 +145,72 @@ position: absolute;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+	#mpslide1{
+	background-image: url('images/1stvisit.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#mpslide2{
+	background-image: url('images/mapping_process/2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#mpslide3{
+	background-image: url('images/presentation_mana.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #mpslide4{
+ background-image: url('images/mapping_process/4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+ #mpslide5{
+ background-image: url('images/mapping_process/5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#mpslide6{
+	background-image: url('images/mapping_process/6.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#mpslide7{
+	background-image: url('images/mapping.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #mpslide8{
+ background-image: url('images/mapping_process/8.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+ #mpslide9{
+ background-image: url('images/mapping_process/9.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+ #mpslide10{
+ background-image: url('images/mapping_process/10.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#mpslide11{
+	background-image: url('images/mapping_process/11.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#mpslide12{
+	background-image: url('images/training.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #mpslide13{
+ background-image: url('images/review.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
 	#mslide1{
 	background-image: url('images/manahari.jpg');
 	background-repeat: no-repeat;
@@ -200,11 +266,27 @@ position: absolute;
 	background-repeat: no-repeat;
 	background-size: cover;
 	}
+ #aslide4{
+ background-image: url('images/bari_1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+ #aslide5{
+ background-image: url('images/banana.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
 .h {
   position: relative;
-  top: 45%;
+  top: 48%;
 }
-.section > .h {
+.t{
+  font-size: 1.5em;
+  margin: .67em 0;
+font-weight: bold;
+}
+
+.fp-tableCell  > .h {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -214,7 +296,7 @@ position: absolute;
  padding: 20px 0px;
   overflow: hidden;
 }
-.section > .h::before {
+.fp-tableCell  > .h::before {
   content: "";
   position: absolute;
   top: 0;
@@ -228,11 +310,12 @@ position: absolute;
   filter: blur(15px);
   transform: scale(2) translateY(20px);*/
 }
-.section > .h > h1 {
+.fp-tableCell  > .h > .t {
   margin: 0;
   color: white;
-  position: relative;
+  position: absolute;
   z-index: 1;
+top: 85%;
 }
 svg {
   padding: 20px;
@@ -252,6 +335,35 @@ left: 85%;
   font-size: 1.5em;
   left: 90%;
   top: 0px;
+}
+.contact{
+display: block;
+}
+#heading {
+  position: absolute;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+#heading_info {
+  margin-top: 2em;
+}
+.info {
+  position: absolute;
+  float: left;
+  left: 33%;
+  width: 33%;
+  text-align: center;
+}
+.osm_location {
+  display: inline-block;
+  position: absolute;
+  float: left;
+  left: 29%;
+  top: 20%;
+}
+.contact_info{
+display: inline-block;
 }
 @media only screen and (min-height: 700px) and (min-width: 1370px){
 .section {
