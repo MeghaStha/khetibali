@@ -96,22 +96,37 @@ position: absolute;
   padding: 9px;
 }
 	#bslide1{
-	background-image: url('images/abt21.jpg');
+	background-image: url('images/Bajrabarahi/1.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	}
 #bslide2{
-	background-image: url('images/presentation.jpg');
+	background-image: url('images/Bajrabarahi/2.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 #bslide3{
-	background-image: url('images/smallfarmer.jpg');
+	background-image: url('images/Bajrabarahi/3.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
  #bslide4{
- background-image: url('images/1.jpg');
+ background-image: url('images/Bajrabarahi/4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#bslide5{
+	background-image: url('images/Bajrabarahi/5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#bslide6{
+	background-image: url('images/Bajrabarahi/6.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #bslide7{
+ background-image: url('images/Bajrabarahi/7.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	}
